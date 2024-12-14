@@ -30,7 +30,7 @@ span {
 }
 
 body {
-    background: url('../img/animated/stars.gif') repeat;
+    background: url('./img/animated/stars.gif') repeat;
     animation: moveDownLeft 60s linear infinite;
 }
 
