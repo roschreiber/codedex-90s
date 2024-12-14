@@ -13,15 +13,26 @@ import "../styles/global.css";
 		<meta name="generator" content={Astro.generator} />
 		<title>Codédex</title>
 		<div class="crt"></div>
+		<script>
+			document.addEventListener('DOMContentLoaded', () => {
+				let titleText = "Codédex - Learn CODE for free! - Holiday Hackathon now live! ";
+				let speed = 200;
+				function scrollTitle() {
+					document.title = titleText;
+					titleText = titleText.substring(1) + titleText.charAt(0);
+					setTimeout(scrollTitle, speed);
+				}
+				scrollTitle();
+			});
+		</script>
 	</head>
 	<body>
 		<Header />
 		<slot />
 		<Footer />
 		<!-- Wikplayer https://www.wikplayer.com -->
-<script type="text/javascript" src="https://www.wikplayer.com/code.js" 
-data-config="{'skin':'skins/wikfull/plainBlack/skin.css','volume':50,'autoplay':true,'shuffle':false,'repeat':1,'showcomment':false,'marqueetexton':true,'placement':'bottom','showplaylist':false,'playlist':[{'title':'Jamiroquai%20-%20VIrtual%20Insanity','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLm6DS3BeTdM'},{'title':'PROUX%20-%20Funk%20Express','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEshAHgKLY1o'},{'title':'Rakuten%20Point','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAc4dmdBT7Us'},{'title':'Basshunter%20-%20DotA','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DqTsaS1Tm-Ic'},{'title':'Deathro%20-%20E.S.S.O','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxGYUtqyhgTM'}]}" ></script>
-<!-- Wikplayer code end -->
-
+		<script type="text/javascript" src="https://www.wikplayer.com/code.js" 
+		data-config="{'skin':'skins/wikfull/plainBlack/skin.css','volume':50,'autoplay':true,'shuffle':false,'repeat':1,'showcomment':false,'marqueetexton':true,'placement':'bottom','showplaylist':false,'playlist':[{'title':'Jamiroquai%20-%20VIrtual%20Insanity','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLm6DS3BeTdM'},{'title':'PROUX%20-%20Funk%20Express','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEshAHgKLY1o'},{'title':'Rakuten%20Point','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAc4dmdBT7Us'},{'title':'Basshunter%20-%20DotA','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DqTsaS1Tm-Ic'},{'title':'Deathro%20-%20E.S.S.O','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxGYUtqyhgTM'}]}" ></script>
+		<!-- Wikplayer code end -->
 	</body>
 </html>

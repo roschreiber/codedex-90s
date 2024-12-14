@@ -1,0 +1,37 @@
+---
+import CodedexImage from './CodedexImage.astro';
+import { Image } from 'astro:assets';
+import hacker from '/public/img/animated/Hacker-03-june.gif';
+import line from '/public/img/animated/line1.gif';
+import money from '/public/img/animated/money07.gif';
+---
+
+<meta charset="UTF-8">
+<body>
+    <center>
+        <marquee direction="right" onmouseover="this.stop();" onmouseout="this.start();">
+            <img alt="Pikachu Flying" src="/codedex-90s/img/animated/angelchu.gif" style="margin-right: 5px; margin-bottom: -5px;">
+            <img alt="Anything but Chrome" src="/codedex-90s/img/buttons/anythingbut.gif" style="margin-right: 5px; margin-bottom: -5px;">
+            <img alt="Best Viewed on Desktop" src="/codedex-90s/img/buttons/bestviewedondesktop.gif" style="margin-right: 5px; margin-bottom: -5px;">
+            <img alt="Best Viewed on Desktop" src="/codedex-90s/img/buttons/bestviewedcomp.gif" style="margin-right: 5px; margin-bottom: -5px;">
+            <a href="https://nookipedia.com/wiki/Bob"><img alt="Best Viewed on Desktop" src="/codedex-90s/img/buttons/bob.gif" style="margin-right: 5px; margin-bottom: -5px;"></a>
+            <img alt="Best Viewed on Desktop" src="/codedex-90s/img/buttons/html-learn-it-today.gif" style="margin-right: 5px; margin-bottom: -5px;">
+            <img alt="Best Viewed on Desktop" src="/codedex-90s/img/buttons/notepad2.gif" style="margin-right: 5px; margin-bottom: -5px;">
+            <img alt="Best Viewed on Desktop" src="/codedex-90s/img/buttons/valid-html5.gif" style="margin-right: 5px; margin-bottom: -5px;">
+            <img alt="Best Viewed on Desktop" src="/codedex-90s/img/buttons/wcpower.gif" style="margin-right: 5px; margin-bottom: -5px;">
+            <img alt="Best Viewed on Desktop" src="/codedex-90s/img/buttons/webp.gif" style="margin-right: 5px; margin-bottom: -5px;">
+            <img alt="Best Viewed on Desktop" src="/codedex-90s/img/buttons/wii.gif" style="margin-right: 5px; margin-bottom: -5px;">
+            <img alt="Best Viewed on Desktop" src="/codedex-90s/img/buttons/wikipedia2.gif" style="margin-right: 5px; margin-bottom: -5px;">
+            <img alt="Pikachu Flying" src="/codedex-90s/img/animated/angelchu.gif" style="margin-right: 5px; margin-bottom: -5px;">
+        </marquee>
+        <br><br><Image src={line} alt="Seperator Line" /><br><br>
+        <p>Want to know more about us? Here are some of the finest hyperlinks:</p>
+        <p>
+            <a href="/codedex-90s/team" target="_blank" style="text-decoration:none; display: inline-block; padding: 10px 20px; background-color: #000; border: 2px solid #fff; border-radius: 5px; transition: all 0.3s ease; background-image: url('/codedex-90s/img/animated/matrix.gif');">
+                <span style="margin-left: 10px;">The Team behind <CodedexImage width="151" height="20"/></span>
+            </a>
+        </p>
+        <br><br>
+        <p style="font-size: 10px;">website made by Robin Schreiber for <CodedexImage width="151" height="10"/>'s holiday hackathon</p>
+    </center>
+</body>
