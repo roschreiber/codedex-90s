@@ -1,4 +1,6 @@
 ---
 const { width, height } = Astro.props;
+import { Image } from 'astro:assets';
+import codedex from '/public/img/animated/CODEDEX.gif';
 ---
-<img src='./img/animated/CODEDEX.gif' alt="Codédex" width={width} height={height} />
+<Image src={codedex} alt="Codédex" width={width} height={height} />

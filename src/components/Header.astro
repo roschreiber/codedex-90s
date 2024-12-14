@@ -1,25 +1,30 @@
 ---
 import CodedexImage from './CodedexImage.astro';
+import { Image } from 'astro:assets';
+import hacker from '/public/img/animated/Hacker-03-june.gif';
+import line from '/public/img/animated/line1.gif';
+import money from '/public/img/animated/money07.gif';
 ---
+
 <meta charset="UTF-8">
 <body>
     <center>
-        <marquee direction="left"><img src='./img/animated/kirbster.gif' style="margin-right: 5px; margin-bottom: -5px;"> <span>Codédex Winter Hackathon live NOW!</span> <img src='./img/animated/kirbster-enemy.gif' style="margin-left: 6px; margin-bottom: -5px;"></marquee>
+        <marquee direction="left"><img alt="Kirby flying right" src="/public/img/animated/kirbster.gif" style="margin-right: 5px; margin-bottom: -5px;"> <span>Codédex Winter Hackathon live NOW!</span> <img src="/public/img/animated/kirbster-enemy.gif" alt="Waddledoo chasing Kirby" style="margin-left: 6px; margin-bottom: -5px;"></marquee>
         <br>
-        <img src='./img/animated/Hacker-03-june.gif' alt="Person Hacking on a Computer" />
+        <Image src={hacker} alt="Person Hacking on a Computer" />
         <CodedexImage width="384" height="51" />
-        <img src='./img/animated/Hacker-03-june.gif' alt="Person Hacking on a Computer" />
-        <br><br><img src='./img/animated/line1.gif' alt="Seperator Line" /><br><br>
+        <Image src={hacker} alt="Person Hacking on a Computer" />
+        <br><br><Image src={line} alt="Seperator Line" /><br><br>
         <a href="https://www.glitter-graphics.com/myspace/text_generator.php" target=_blank><img src="https://text.glitter-graphics.net/wiggle/n.gif" ><img src="https://text.glitter-graphics.net/wiggle/a.gif" ><img src="https://text.glitter-graphics.net/wiggle/v.gif" ><img src="https://text.glitter-graphics.net/wiggle/i.gif" ><img src="https://text.glitter-graphics.net/wiggle/g.gif" ><img src="https://text.glitter-graphics.net/wiggle/a.gif" ><img src="https://text.glitter-graphics.net/wiggle/t.gif" ><img src="https://text.glitter-graphics.net/wiggle/o.gif" ><img src="https://text.glitter-graphics.net/wiggle/r.gif" ></a>
         <br>
         <br>
-        <table style="background-image: url('./img/animated/matrix.gif'); border-color:grey; border-width:2px" border="2" cellspacing="3" cellpadding="3" align="center">
+        <table style="background-image: url('/public/img/animated/matrix.gif'); border-color:grey; border-width:2px" border="2" cellspacing="3" cellpadding="3" align="center">
             <tbody>
                 <tr>
                     <td><a style="color:white; text-decoration:none" href="/">Home</a></td>
                     <td><a style="color:white; text-decoration:none" href="/learn">Learn</a></td>
                     <td><a style="color:white; text-decoration:none" href="/community">Community</a></td>
-                    <td><img src='./img/animated/money07.gif' alt="Spinning Dollar Bill" width="16" height="14"/><a style="color:greenyellow; text-decoration:none" href="/club"> Join Club <img src='./img/animated/money07.gif' alt="Spinning Dollar Bill" width="16" height="14"/></a></td>
+                    <td><Image src={money} alt="Spinning Dollar Bill" width="16" height="14"/><a style="color:greenyellow; text-decoration:none" href="/club"> Join Club <Image src={money} alt="Spinning Dollar Bill" width="16" height="14"/></a></td>
                 </tr>
             </tbody>
         </table>

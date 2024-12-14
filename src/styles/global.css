@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Comic Sans MS';
-    src: url(../fonts/ComicSansMS.ttf);
+    src: url(/codedex-90s/fonts/ComicSansMS.ttf);
 }
 
 * {
@@ -30,9 +30,11 @@ span {
 }
 
 body {
-    background: url('./img/animated/stars.gif') repeat;
+    background: url('/codedex-90s/img/animated/stars.gif') repeat;
     animation: moveDownLeft 60s linear infinite;
 }
+
+
 
 .crt::before {
     content: " ";
@@ -139,7 +141,15 @@ body {
     margin-bottom: -85px;
     height: 45px; 
 }
-    
+
+.hacker-button {
+    background-color: #000;
+    color: #0f0;
+    text-shadow: 0 0 10px #0f0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
 @keyframes blimp {
     0% {
         right: 0;
