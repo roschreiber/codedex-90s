@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CommunitySidebar from '../components/CommunitySidebar.astro';
+import LiveUsers from '../components/LiveUsers.astro';
+import CommunityPosts from '../components/CommunityPosts.astro';
+---
+
+<Layout>
+    <div style="display: flex;">
+        <div class="sidebar" style="flex: 1;">
+            <CommunitySidebar />
+        </div>
+        <div class="main-content" style="flex: 1; margin-top: 15px;">
+            <CommunityPosts usernames={["@noskipp", "@sonny", "@intelagense", "@teejay", "@kom-senapati", "@lilybird"]} />
+        </div>
+        <div class="live-users" style="flex: 0;">
+            <LiveUsers />
+        </div>
+    </div>
+    <body>
+        <img class="blimp-cat" src="../img/animated/blimp-cat.gif" alt="">
+        <img class="blimp-cat-2" src="../img/animated/blimp-cat.gif" alt="">
+        <img class="baloon-cat" src="../img/animated/hot-air-baloon.gif" alt="">
+        <script>window.NekoType = "silver";</script>
+        <script src="https://webneko.net/n20171213.js" defer></script>
+    </body>
+</Layout>

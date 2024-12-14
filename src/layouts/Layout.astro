@@ -1,3 +1,9 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import "../styles/global.css";
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -5,18 +11,17 @@
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>Codédex</title>
+		<div class="crt"></div>
 	</head>
 	<body>
+		<Header />
 		<slot />
+		<Footer />
+		<!-- Wikplayer https://www.wikplayer.com -->
+<script type="text/javascript" src="https://www.wikplayer.com/code.js" 
+data-config="{'skin':'skins/wikfull/plainBlack/skin.css','volume':50,'autoplay':true,'shuffle':false,'repeat':1,'showcomment':false,'marqueetexton':true,'placement':'bottom','showplaylist':false,'playlist':[{'title':'Jamiroquai%20-%20VIrtual%20Insanity','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLm6DS3BeTdM'},{'title':'PROUX%20-%20Funk%20Express','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEshAHgKLY1o'},{'title':'Rakuten%20Point','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAc4dmdBT7Us'},{'title':'Basshunter%20-%20DotA','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DqTsaS1Tm-Ic'},{'title':'Deathro%20-%20E.S.S.O','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxGYUtqyhgTM'}]}" ></script>
+<!-- Wikplayer code end -->
+
 	</body>
 </html>
-
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>

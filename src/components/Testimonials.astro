@@ -1,0 +1,25 @@
+---
+import CodedexImage from "./CodedexImage.astro";
+import CoolBox from "./CoolBox.astro";
+---
+
+<div style="display: flex; justify-content: center; align-items: center; text-align: center; margin-top: -50px;">
+    <CodedexImage width="151" height="30"/>
+    <p style="margin: 0; font-size: 30px;">is <a style="color: red;" href="https://www.youtube.com/watch?v=vJcWgwnp5F4" target="_blank">100%</a> loved by its learners!</p><img src='./img/animated/graycatdance.gif' alt="Dancing Cat" style="width: 50px; height: 60px; margin-left: 10px;" />
+</div>
+<div style="display: flex; justify-content: center; gap: 20px; margin-top: 40px;">
+    <CoolBox 
+        title="Ma Dong Seok" 
+        image="./img/static/sonny.jpg" 
+        text="Codédex has been my go-to platform for learning new programming languages. I hope i could be the owner of it one day!" 
+        stars={5}
+        borderColor="#ff00ff" 
+    />
+    <CoolBox 
+        title="eric's Robot" 
+        image="./img/static/ericrobot.png" 
+        text="Codédex is the most futuristic platform for learning how to code. It looks like it came straight from 2024!" 
+        stars={5}
+        borderColor="#00ff00" 
+    />
+</div>

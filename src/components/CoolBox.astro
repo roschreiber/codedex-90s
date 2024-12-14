@@ -1,0 +1,25 @@
+---
+const { title, image, text, stars, borderColor } = Astro.props;
+---
+
+<div style={`background: #222; padding: 20px; border: 2px solid ${borderColor}; border-radius: 5px; width: 300px;`}>
+    <div style="text-align: left; color: #fff; font-size: 1rem;">
+        {image && (
+            <div style="margin-bottom: 10px;">
+                <img src={image} alt={title} style="width: 50px; height: 50px; display: inline-block; vertical-align: middle;"/>
+                <span style={`margin-left: 10px; font-size: 1.2rem; color: ${borderColor}; font-weight: bold;`}>{title}</span>
+            </div>
+        )}
+        {!image && (
+            <h2 style={`font-size: 1.5rem; color: ${borderColor};`}>{title}</h2>
+        )}
+        <p>{text}</p>
+        {stars && (
+            <div style="display: flex; justify-content: center; margin-top: 15px;">
+                {Array.from({ length: stars }).map((_, index) => (
+                    <img src="./img/animated/starfull.gif" alt="Star" style="width: 20px; height: 20px;" />
+                ))}
+            </div>
+        )}
+    </div>
+</div>

@@ -1,11 +1,46 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import CodedexImage from '../components/CodedexImage.astro';
+import CardSelector from '../components/CardSelector.astro';
+import Testimonials from '../components/Testimonials.astro';
 ---
-
 <Layout>
-	<Welcome />
+    <br>
+	<div style="text-align: center;">
+		<b style="color: white; display: inline-block;">START YOUR</b>
+		<img src='../img/animated/CODINGADVENTURE.gif' alt="Coding Adventure" style="display: block; margin: -100px auto 0; transform: rotate(9deg);" />
+	</div>
+
+    <div style="display: flex; justify-content: center; align-items: center; text-align: center; margin-top: -100px;">
+        <CodedexImage width="151" height="20"/>
+        <p style="margin: 0;">is the best way to learn CODE, for <a style="color: yellowgreen">free</a>!</p>
+    </div>
+
+    <div style="text-align: center; margin-top: 20px;">
+        <button>Get Started</button>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <p style="margin: 0;">Supported by:</p>
+            <img src='./img/animated/githubold.gif' width="5%" height="5%" alt="Github - Social Coding" style="margin-left: -5px;" />
+            <img src='./img/animated/csta.gif' width="4%" height="4%" alt="CSTA" style="margin-left: -5px;" />
+            <img src='./img/animated/usa1.gif' width="4%" height="4%" alt="USA Flag" style="margin-left: 5px;" />
+        </div>
+    </div>
+    <div style="text-align: center; margin-top: 20px;">
+        <p style="font-size: 30px;">Journey through the <a href="https://www.glitter-graphics.com" style="text-decoration: none"><font color=#ff0000>w</font><font color=#f2260c>o</font><font color=#e54b19>r</font><font color=#d86e26>l</font><font color=#cc8f33>d</font> <font color=#b2c74c>o</font><font color=#a5dd59>f</font> <font color=#8cf872>p</font><font color=#7ffe7f>r</font><font color=#72fe8c>o</font><font color=#66f899>g</font><font color=#59eca5>r</font><font color=#4cdcb2>a</font><font color=#3fc6bf>m</font><font color=#33accc>m</font><font color=#268ed8>i</font><font color=#196ce5>n</font><font color=#0c49f2>g</font></a></p>
+        <p>And learn how to code with handcrafted courses by industry experts</p>
+    </div>
+    <CardSelector />
+    <br><br><br>
+    <Testimonials />
+    <body>
+    <img class="blimp-cat" src="./img/animated/blimp-cat.gif" alt="">
+    <img class="blimp-cat-2" src="./img/animated/blimp-cat.gif" alt="">
+    <img class="baloon-cat" src="./img/animated/hot-air-baloon.gif" alt="">
+    <script>window.NekoType = "silver";</script>
+    <script src="https://webneko.net/n20171213.js" defer></script>
+    <script src="text/javascript" src="https://www.wikplayer.com/code.js" 
+data-config="{'skin':'skins/wikfull/plainBlack/skin.css','volume':50,'autoplay':true,'shuffle':false,'repeat':1,'showcomment':false,'marqueetexton':true,'placement':'bottom','showplaylist':false,'playlist':[{'title':'Jamiroquai%20-%20VIrtual%20Insanity','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLm6DS3BeTdM'},{'title':'PROUX%20-%20Funk%20Express','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEshAHgKLY1o'},{'title':'Rakuten%20Point','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAc4dmdBT7Us'},{'title':'Basshunter%20-%20DotA','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DqTsaS1Tm-Ic'},{'title':'Deathro%20-%20E.S.S.O','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxGYUtqyhgTM'}]}" ></script>
+
+    </body>
 </Layout>
+

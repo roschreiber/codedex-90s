@@ -1,0 +1,106 @@
+---
+import Coolbox from './CoolBox.astro';
+
+const { usernames } = Astro.props;
+
+const fetchUserProfiles = async (usernames) => {
+  const profiles = [];
+  for (const username of usernames) {
+    try {
+      const payload = `{"username": "${username}"}`;
+
+      const response = await fetch('https://www.codedex.io/api/fullUserProfile', {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'text/plain'
+        },
+        body: payload
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      console.log('Request payload:', payload);
+      console.log('Fetched profile data:', data);
+      
+      if (data && data.data && data.data.user) {
+        profiles.push(data);
+      } else {
+        console.error('Invalid profile data structure for user:', username);
+      }
+    } catch (error) {
+      console.error('Error fetching profile for user:', username, error);
+    }
+  }
+  return profiles;
+};
+
+const profiles = await fetchUserProfiles(usernames);
+const posts = profiles.flatMap(profile => {
+  if (!profile?.data?.user?.opcPosts) {
+    console.log('No posts found for profile:', profile);
+    return [];
+  }
+  return profile.data.user.opcPosts.map(post => ({
+    id: post.id,
+    title: post.title,
+    content: post.content,
+    tags: [post.communityName],
+    author: profile.data.user.name,
+    photoURL: profile.data.user.photoURL
+  }));
+});
+
+// Show only 5 random posts initially for Home
+const initialPosts = posts.sort(() => 0.5 - Math.random()).slice(0, 5);
+
+console.log('Processed posts:', posts);
+---
+
+<div id="posts-container">
+  {posts.map(post => (
+    <div class="post-item" data-tags={post.tags.join(',')} style="display: none;">
+      <Coolbox key={post.id} title={post.title} content={post.content} image={post.photoURL} borderColor="#44547c"/>
+    </div>
+  ))}
+</div>
+
+<script>
+  document.addEventListener('categoryChanged', ((event: CustomEvent) => {
+    const category = event.detail.category;
+    const posts = document.querySelectorAll('.post-item');
+    
+    posts.forEach(post => {
+      const tags = post.getAttribute('data-tags')?.split(',') || [];
+      if (category === 'Home') {
+        post.style.display = 'none';
+      } else if (tags.includes(category)) {
+        post.style.display = 'block';
+      } else {
+        post.style.display = 'none';
+      }
+    });
+
+    if (category === 'Home') {
+      const postsArray = Array.from(posts);
+      postsArray
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 5)
+        .forEach(post => post.style.display = 'block');
+    }
+  }) as EventListener);
+
+  // Initially show 5 random posts for Home
+  document.dispatchEvent(new CustomEvent('categoryChanged', { 
+    detail: { category: 'Home' }
+  }));
+</script>
+
+<style>
+  .post-item {
+    margin-bottom: 1rem;
+  }
+</style>

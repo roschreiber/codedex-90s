@@ -1,0 +1,1975 @@
+{
+    "data": {
+        "user": {
+            "lastName": "SENAPATI",
+            "timezone": "UTC",
+            "work": "",
+            "roles": {
+                "isFree": true,
+                "isWorkshop": false,
+                "isTrial": false,
+                "isCommunity": false
+            },
+            "firstName": "K OM",
+            "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocJp1iOHm4myK0yuIrwX2nN01dYtBb5qKXV6ewGfEXTrGWyrvHg=s96-c",
+            "uid": "I9vaybez13Ye24lB6yO2co0e28d2",
+            "name": "K OM SENAPATI",
+            "skillset": [
+                "JavaScript",
+                "Python",
+                "SQL"
+            ],
+            "school": "Odisha University of Technology and Research",
+            "bio": "CSE' 27",
+            "uniqueUsername": "kom-senapati",
+            "location": "Bhubaneswar",
+            "username": "kom-senapati",
+            "socials": {
+                "youtube": "",
+                "twitch": "",
+                "tiktok": "",
+                "facebook": "",
+                "instagram": "",
+                "github": "kom-senapati",
+                "twitter": "kom_senapati",
+                "linkedin": "kom-senapati"
+            },
+            "colorMode": "dark",
+            "metadata": {
+                "creationTime": "2024-04-27T02:50:58Z",
+                "updatedAt": "Tue, 17 Sep 2024 04:55:28 GMT"
+            },
+            "codeEditorTheme": "night-owl",
+            "stats": {
+                "characterModelIndex": 0,
+                "achievements": [],
+                "totalXp": 370,
+                "courseXp": {
+                    "git-github": {
+                        "courseName": "git-github",
+                        "courseXp": 0
+                    },
+                    "intermediate-python": {
+                        "courseName": "intermediate-python",
+                        "courseXp": 0
+                    },
+                    "python": {
+                        "courseName": "python",
+                        "courseXp": 0
+                    },
+                    "css": {
+                        "courseName": "css",
+                        "courseXp": 0
+                    },
+                    "framework-valley-react": {
+                        "courseName": "framework-valley-react",
+                        "courseXp": 0
+                    },
+                    "html": {
+                        "courseName": "html",
+                        "courseXp": 0
+                    },
+                    "numpy": {
+                        "courseName": "numpy",
+                        "courseXp": 0
+                    },
+                    "command-line": {
+                        "courseName": "command-line",
+                        "courseXp": 175
+                    },
+                    "javascript": {
+                        "courseName": "javascript",
+                        "courseXp": 115
+                    },
+                    "sql": {
+                        "courseName": "sql",
+                        "courseXp": 0
+                    },
+                    "intermediate-javascript": {
+                        "courseName": "intermediate-javascript",
+                        "courseXp": 0
+                    },
+                    "gen-ai": {
+                        "courseXp": 80,
+                        "courseName": "gen-ai"
+                    },
+                    "p5js": {
+                        "courseName": "p5js",
+                        "courseXp": 0
+                    },
+                    "cpp": {
+                        "courseName": "cpp",
+                        "courseXp": 0
+                    },
+                    "java": {
+                        "courseName": "java",
+                        "courseXp": 0
+                    }
+                },
+                "streaks": {
+                    "longestStreak": 5,
+                    "datesVisited": [
+                        "04/27/2024",
+                        "04/28/2024",
+                        "05/01/2024",
+                        "05/02/2024",
+                        "05/04/2024",
+                        "05/08/2024",
+                        "06/21/2024",
+                        "06/22/2024",
+                        "06/27/2024",
+                        "06/28/2024",
+                        "07/02/2024",
+                        "07/08/2024",
+                        "07/10/2024",
+                        "07/11/2024",
+                        "07/12/2024",
+                        "07/13/2024",
+                        "07/15/2024",
+                        "07/16/2024",
+                        "07/22/2024",
+                        "07/31/2024",
+                        "08/22/2024",
+                        "08/31/2024",
+                        "09/05/2024",
+                        "09/08/2024",
+                        "09/13/2024",
+                        "09/14/2024",
+                        "09/15/2024",
+                        "09/16/2024",
+                        "09/17/2024",
+                        "09/25/2024",
+                        "10/10/2024",
+                        "10/11/2024",
+                        "12/06/2024",
+                        "12/13/2024",
+                        "12/14/2024"
+                    ],
+                    "currentStreak": 2
+                }
+            },
+            "followerData": {
+                "followingCount": 2,
+                "followersCount": 2
+            },
+            "profileData": {},
+            "pinnedProjects": [],
+            "numberOfOpcPosts": 4,
+            "numberOfProjects": 0,
+            "opcPosts": [
+                {
+                    "id": "Ka6fwCmVU5wKyeANq9Hc",
+                    "teamMembers": [],
+                    "videoFiles": [],
+                    "reports": [],
+                    "qualifiedTags": [],
+                    "hackathonName": "winter-mini-hackathon-2024",
+                    "ownerUid": "I9vaybez13Ye24lB6yO2co0e28d2",
+                    "title": "Vintage Vittles",
+                    "content": "<p>Giving the recipes of <a href=\"https://www.themealdb.com/\" rel=\"noopener noreferrer\" target=\"_blank\">TheMealDB.com</a> a retro look</p><p><br></p><p>Github - <a href=\"https://github.com/kom-senapati/vintage-vittles\" rel=\"noopener noreferrer\" target=\"_blank\">kom-senapati/vintage-vittles</a></p><p><br></p><p>Crafted using Nextjs and Tailwindcss</p>",
+                    "parent": null,
+                    "postId": "Ka6fwCmVU5wKyeANq9Hc",
+                    "communityName": "hackathon",
+                    "hackathonTrack": "now-its-personal",
+                    "images": [
+                        {
+                            "url": "https://firebasestorage.googleapis.com/v0/b/codedex-io.appspot.com/o/community%2Fhackathon%2Fpost%2FKa6fwCmVU5wKyeANq9Hc%2FScreenshot_14-12-2024_18951_vintage-vittles.vercel.app.jpeg?alt=media&token=a21621bd-58ec-44ae-bca8-6c0a89cc7069"
+                        }
+                    ],
+                    "userDislikes": 0,
+                    "userReports": 0,
+                    "githubRepo": "https://github.com/kom-senapati/vintage-vittles",
+                    "liveDemo": "https://vintage-vittles.vercel.app/",
+                    "isTeam": false,
+                    "teamName": "",
+                    "createdAt": {
+                        "_seconds": 1734180002,
+                        "_nanoseconds": 998000000
+                    },
+                    "userComments": 7,
+                    "userLikes": 9,
+                    "authorData": {
+                        "username": "kom-senapati",
+                        "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocJp1iOHm4myK0yuIrwX2nN01dYtBb5qKXV6ewGfEXTrGWyrvHg=s96-c",
+                        "name": "K OM SENAPATI",
+                        "totalXp": 370,
+                        "club": false
+                    }
+                },
+                {
+                    "id": "yvj3O9L359sLr8rh3iSn",
+                    "submissionYear": "2024",
+                    "reports": [],
+                    "parent": null,
+                    "images": [],
+                    "userReports": 0,
+                    "communityName": "monthly-challenge",
+                    "postId": "yvj3O9L359sLr8rh3iSn",
+                    "ownerUid": "I9vaybez13Ye24lB6yO2co0e28d2",
+                    "submissionMonth": "october",
+                    "content": "<p><a href=\"https://github.com/codedex-io/python-101/pull/94\" rel=\"noopener noreferrer\" target=\"_blank\">Update python-101/7-classes-objects /37_bank_accounts.py by kom-senapati · Pull Request #94 · codedex-io/python-101 (github.com)</a></p>",
+                    "createdAt": {
+                        "_seconds": 1728666902,
+                        "_nanoseconds": 261000000
+                    },
+                    "userLikes": 2,
+                    "userComments": 1,
+                    "title": "✅ [Merged] Python 101: Bank Accounts (2nd PR)",
+                    "authorData": {
+                        "username": "kom-senapati",
+                        "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocJp1iOHm4myK0yuIrwX2nN01dYtBb5qKXV6ewGfEXTrGWyrvHg=s96-c",
+                        "name": "K OM SENAPATI",
+                        "totalXp": 370,
+                        "club": false
+                    }
+                },
+                {
+                    "id": "z0N1alaTjAFFpy8979ny",
+                    "submissionYear": "2024",
+                    "reports": [],
+                    "parent": null,
+                    "images": [],
+                    "userReports": 0,
+                    "communityName": "monthly-challenge",
+                    "postId": "z0N1alaTjAFFpy8979ny",
+                    "ownerUid": "I9vaybez13Ye24lB6yO2co0e28d2",
+                    "submissionMonth": "october",
+                    "createdAt": {
+                        "_seconds": 1728612434,
+                        "_nanoseconds": 87000000
+                    },
+                    "title": "💔 [Closed] Python 101: Update Coin Toss (1st PR)",
+                    "content": "<p>Fix: Simplify coin flip logic · Pull Request #89 · codedex-io/python-101</p><p><br></p><p><a href=\"https://github.com/codedex-io/python-101/pull/89\" rel=\"noopener noreferrer\" target=\"_blank\">https://github.com/codedex-io/python-101/pull/89</a></p>",
+                    "userLikes": 4,
+                    "userComments": 5,
+                    "authorData": {
+                        "username": "kom-senapati",
+                        "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocJp1iOHm4myK0yuIrwX2nN01dYtBb5qKXV6ewGfEXTrGWyrvHg=s96-c",
+                        "name": "K OM SENAPATI",
+                        "totalXp": 370,
+                        "club": false
+                    }
+                },
+                {
+                    "id": "1bWkk6ju57OERE5FgNH3",
+                    "reports": [],
+                    "parent": null,
+                    "images": [
+                        {
+                            "url": "https://firebasestorage.googleapis.com/v0/b/codedex-io.appspot.com/o/community%2Fpython%2Fpost%2F1bWkk6ju57OERE5FgNH3%2F2106.i201.009.P.m004.c33.chatbot%20messenger%20AI%20isometric%20set.jpg?alt=media&token=677bb415-c8fc-4b3c-aed6-f5d8bc3191eb"
+                        }
+                    ],
+                    "userReports": 0,
+                    "communityName": "python",
+                    "postId": "1bWkk6ju57OERE5FgNH3",
+                    "ownerUid": "I9vaybez13Ye24lB6yO2co0e28d2",
+                    "title": "Bot Verse",
+                    "userComments": 0,
+                    "content": "<p><span style=\"color: rgb(255, 255, 255);\">Bot Verse&nbsp;is an innovative platform for creating, sharing, and interacting with AI chatbots. Users can manage their own chatbots, explore public and system chatbots, and leverage pre-made solutions for various tasks. This project is open source and welcomes contributions from the community</span></p><p><br></p><p><a href=\"https://github.com/kom-senapati/bot-verse\" rel=\"noopener noreferrer\" target=\"_blank\">kom-senapati/bot-verse: (github.com)</a></p><p><br></p><p>Demo:</p><p><a href=\"https://youtu.be/bTenLkn3Tv4\" rel=\"noopener noreferrer\" target=\"_blank\">https://youtu.be/bTenLkn3Tv4</a></p>",
+                    "createdAt": {
+                        "_seconds": 1725813273,
+                        "_nanoseconds": 869000000
+                    },
+                    "userLikes": 3,
+                    "authorData": {
+                        "username": "kom-senapati",
+                        "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocJp1iOHm4myK0yuIrwX2nN01dYtBb5qKXV6ewGfEXTrGWyrvHg=s96-c",
+                        "name": "K OM SENAPATI",
+                        "totalXp": 370,
+                        "club": false
+                    }
+                }
+            ]
+        },
+        "userProgressState": {
+            "command-line": {
+                "createdAt": "Sat Apr 27 2024 01:19:02 GMT+0000 (Coordinated Universal Time)",
+                "courseName": "command-line",
+                "resumeExercise": "12-music-playlists",
+                "badgesEarned": [
+                    "navigation",
+                    "manipulation"
+                ],
+                "chapters": {
+                    "manipulation": {
+                        "chapterName": "manipulation",
+                        "challenges": {
+                            "recipes": {
+                                "challengeName": "recipes",
+                                "status": "complete"
+                            },
+                            "cuisine-type": {
+                                "challengeName": "cuisine-type",
+                                "status": "complete"
+                            },
+                            "grilled-cheese": {
+                                "challengeName": "grilled-cheese",
+                                "status": "complete"
+                            },
+                            "move-around": {
+                                "challengeName": "move-around",
+                                "status": "complete"
+                            },
+                            "copy-that": {
+                                "challengeName": "copy-that",
+                                "status": "complete"
+                            },
+                            "music-playlists": {
+                                "challengeName": "music-playlists",
+                                "status": "complete"
+                            }
+                        }
+                    },
+                    "navigation": {
+                        "chapterName": "navigation",
+                        "challenges": {
+                            "in-the-beginning": {
+                                "challengeName": "in-the-beginning",
+                                "status": "complete"
+                            },
+                            "filesystem": {
+                                "challengeName": "filesystem",
+                                "status": "complete"
+                            },
+                            "moving-day": {
+                                "challengeName": "moving-day",
+                                "status": "complete"
+                            },
+                            "house-tour": {
+                                "challengeName": "house-tour",
+                                "status": "complete"
+                            },
+                            "clean-slate": {
+                                "challengeName": "clean-slate",
+                                "status": "complete"
+                            },
+                            "scavenger-hunt": {
+                                "challengeName": "scavenger-hunt",
+                                "status": "complete"
+                            },
+                            "recipes": {
+                                "challengeName": "recipes",
+                                "status": "open"
+                            }
+                        }
+                    }
+                }
+            },
+            "cpp": {
+                "createdAt": "Thu Oct 10 2024 16:59:17 GMT+0000 (Coordinated Universal Time)",
+                "courseName": "cpp",
+                "badgesEarned": [],
+                "resumeExercise": "01-the-program",
+                "chapters": {
+                    "conditionals": {
+                        "chapterName": "conditionals",
+                        "challenges": {
+                            "coin-flip": {
+                                "challengeName": "coin-flip",
+                                "status": "start"
+                            },
+                            "fever": {
+                                "challengeName": "fever",
+                                "status": "locked"
+                            },
+                            "levels-and-ranks": {
+                                "challengeName": "levels-and-ranks",
+                                "status": "locked"
+                            },
+                            "fortune-cookie": {
+                                "challengeName": "fortune-cookie",
+                                "status": "locked"
+                            },
+                            "voting": {
+                                "challengeName": "voting",
+                                "status": "locked"
+                            },
+                            "trivia-quiz": {
+                                "challengeName": "trivia-quiz",
+                                "status": "locked"
+                            }
+                        }
+                    },
+                    "hello-world": {
+                        "challenges": {
+                            "the-program": {
+                                "challengeName": "the-program",
+                                "status": "start"
+                            },
+                            "ouija-board": {
+                                "challengeName": "ouija-board",
+                                "status": "locked"
+                            },
+                            "howdy": {
+                                "challengeName": "howdy",
+                                "status": "locked"
+                            },
+                            "see-ya-later-alligator": {
+                                "challengeName": "see-ya-later-alligator",
+                                "status": "locked"
+                            },
+                            "sign-bunny": {
+                                "challengeName": "sign-bunny",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "hello-world"
+                    },
+                    "variables": {
+                        "challenges": {
+                            "declaration-of-independence": {
+                                "challengeName": "declaration-of-independence",
+                                "status": "locked"
+                            },
+                            "cat-years": {
+                                "challengeName": "cat-years",
+                                "status": "locked"
+                            },
+                            "temperature": {
+                                "challengeName": "temperature",
+                                "status": "locked"
+                            },
+                            "ipo": {
+                                "challengeName": "ipo",
+                                "status": "locked"
+                            },
+                            "mom": {
+                                "challengeName": "mom",
+                                "status": "locked"
+                            },
+                            "knighthood": {
+                                "challengeName": "knighthood",
+                                "status": "locked"
+                            },
+                            "data-types": {
+                                "challengeName": "data-types",
+                                "status": "start"
+                            }
+                        },
+                        "chapterName": "variables"
+                    }
+                }
+            },
+            "css": {
+                "createdAt": "Sat Apr 27 2024 02:30:56 GMT+0000 (Coordinated Universal Time)",
+                "courseName": "css",
+                "badgesEarned": [],
+                "resumeExercise": "01-picasso",
+                "chapters": {
+                    "box-model": {
+                        "challenges": {
+                            "profile-status": {
+                                "challengeName": "profile-status",
+                                "status": "locked"
+                            },
+                            "spaced-out": {
+                                "challengeName": "spaced-out",
+                                "status": "locked"
+                            },
+                            "wiggle-room": {
+                                "challengeName": "wiggle-room",
+                                "status": "locked"
+                            },
+                            "local-library": {
+                                "challengeName": "local-library",
+                                "status": "locked"
+                            },
+                            "make-it-count": {
+                                "challengeName": "make-it-count",
+                                "status": "locked"
+                            },
+                            "inspection": {
+                                "challengeName": "inspection",
+                                "status": "start"
+                            }
+                        },
+                        "chapterName": "box-model"
+                    },
+                    "layout": {
+                        "challenges": {
+                            "fixed-banner": {
+                                "challengeName": "fixed-banner",
+                                "status": "locked"
+                            },
+                            "its-all-relative": {
+                                "challengeName": "its-all-relative",
+                                "status": "locked"
+                            },
+                            "art-gallery": {
+                                "challengeName": "art-gallery",
+                                "status": "locked"
+                            },
+                            "absolute-removal": {
+                                "challengeName": "absolute-removal",
+                                "status": "locked"
+                            },
+                            "lines-and-blocks": {
+                                "challengeName": "lines-and-blocks",
+                                "status": "start"
+                            },
+                            "go-with-the-flow": {
+                                "challengeName": "go-with-the-flow",
+                                "status": "locked"
+                            },
+                            "sticky-elements": {
+                                "challengeName": "sticky-elements",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "layout"
+                    },
+                    "properties": {
+                        "challenges": {
+                            "rainbow": {
+                                "challengeName": "rainbow",
+                                "status": "start"
+                            },
+                            "wallpaper": {
+                                "challengeName": "wallpaper",
+                                "status": "locked"
+                            },
+                            "spellcheck": {
+                                "challengeName": "spellcheck",
+                                "status": "locked"
+                            },
+                            "shorthands": {
+                                "challengeName": "shorthands",
+                                "status": "locked"
+                            },
+                            "five-families": {
+                                "challengeName": "five-families",
+                                "status": "locked"
+                            },
+                            "invitation": {
+                                "challengeName": "invitation",
+                                "status": "locked"
+                            },
+                            "measurements": {
+                                "challengeName": "measurements",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "properties"
+                    },
+                    "selectors": {
+                        "challenges": {
+                            "selectors-1": {
+                                "challengeName": "selectors-1",
+                                "status": "locked"
+                            },
+                            "stylin": {
+                                "challengeName": "stylin",
+                                "status": "start"
+                            },
+                            "selectors-2": {
+                                "challengeName": "selectors-2",
+                                "status": "locked"
+                            },
+                            "syntax": {
+                                "challengeName": "syntax",
+                                "status": "locked"
+                            },
+                            "concert-flyer": {
+                                "challengeName": "concert-flyer",
+                                "status": "locked"
+                            },
+                            "picasso": {
+                                "challengeName": "picasso",
+                                "status": "start"
+                            }
+                        },
+                        "chapterName": "selectors"
+                    }
+                }
+            },
+            "framework-valley-react": {
+                "createdAt": "Sat Apr 27 2024 02:30:50 GMT+0000 (Coordinated Universal Time)",
+                "courseName": "framework-valley-react",
+                "badgesEarned": [],
+                "resumeExercise": "01-first-reaction",
+                "chapters": {
+                    "data-fetching": {
+                        "challenges": {
+                            "data-evolution": {
+                                "challengeName": "data-evolution",
+                                "status": "locked"
+                            },
+                            "i-am-error": {
+                                "challengeName": "i-am-error",
+                                "status": "locked"
+                            },
+                            "now-loading": {
+                                "challengeName": "now-loading",
+                                "status": "locked"
+                            },
+                            "book-finder": {
+                                "challengeName": "book-finder",
+                                "status": "locked"
+                            },
+                            "our-universe": {
+                                "challengeName": "our-universe",
+                                "status": "start"
+                            }
+                        },
+                        "chapterName": "data-fetching"
+                    },
+                    "events": {
+                        "challenges": {
+                            "online-shopping": {
+                                "challengeName": "online-shopping",
+                                "status": "start"
+                            },
+                            "waterfest": {
+                                "challengeName": "waterfest",
+                                "status": "locked"
+                            },
+                            "a-focus-in-art": {
+                                "challengeName": "a-focus-in-art",
+                                "status": "locked"
+                            },
+                            "tooltips": {
+                                "challengeName": "tooltips",
+                                "status": "locked"
+                            },
+                            "noise-levels": {
+                                "challengeName": "noise-levels",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "events"
+                    },
+                    "first-react-app": {
+                        "challenges": {
+                            "writing-react": {
+                                "challengeName": "writing-react",
+                                "status": "locked"
+                            },
+                            "building-blocks": {
+                                "challengeName": "building-blocks",
+                                "status": "locked"
+                            },
+                            "first-reaction": {
+                                "challengeName": "first-reaction",
+                                "status": "start"
+                            },
+                            "social-post": {
+                                "challengeName": "social-post",
+                                "status": "locked"
+                            },
+                            "our-workstation": {
+                                "challengeName": "our-workstation",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "first-react-app"
+                    },
+                    "forms": {
+                        "challenges": {
+                            "newsletter": {
+                                "challengeName": "newsletter",
+                                "status": "start"
+                            },
+                            "high-score-ii": {
+                                "challengeName": "high-score-ii",
+                                "status": "locked"
+                            },
+                            "travel-log": {
+                                "challengeName": "travel-log",
+                                "status": "locked"
+                            },
+                            "high-score-i": {
+                                "challengeName": "high-score-i",
+                                "status": "locked"
+                            },
+                            "animal-rescue": {
+                                "challengeName": "animal-rescue",
+                                "status": "locked"
+                            },
+                            "haiku": {
+                                "challengeName": "haiku",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "forms"
+                    },
+                    "hooks": {
+                        "challenges": {
+                            "barbenheimer": {
+                                "challengeName": "barbenheimer",
+                                "status": "locked"
+                            },
+                            "color-effects-ii": {
+                                "challengeName": "color-effects-ii",
+                                "status": "locked"
+                            },
+                            "kanban-board": {
+                                "challengeName": "kanban-board",
+                                "status": "locked"
+                            },
+                            "cookie-clicker": {
+                                "challengeName": "cookie-clicker",
+                                "status": "start"
+                            },
+                            "color-effects-i": {
+                                "challengeName": "color-effects-i",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "hooks"
+                    },
+                    "jsx-&-components": {
+                        "chapterName": "jsx-&-components",
+                        "challenges": {
+                            "how-to-jsx": {
+                                "challengeName": "how-to-jsx",
+                                "status": "start"
+                            },
+                            "travel-gallery": {
+                                "challengeName": "travel-gallery",
+                                "status": "locked"
+                            },
+                            "embedded-js": {
+                                "challengeName": "embedded-js",
+                                "status": "locked"
+                            },
+                            "hot-takes-pt-1": {
+                                "challengeName": "hot-takes-pt-1",
+                                "status": "locked"
+                            },
+                            "hot-takes-pt-2": {
+                                "challengeName": "hot-takes-pt-2",
+                                "status": "locked"
+                            },
+                            "band-tour": {
+                                "challengeName": "band-tour",
+                                "status": "start"
+                            }
+                        }
+                    },
+                    "props-&-state": {
+                        "challenges": {
+                            "quiz": {
+                                "challengeName": "quiz",
+                                "status": "locked"
+                            },
+                            "trending-now": {
+                                "challengeName": "trending-now",
+                                "status": "locked"
+                            },
+                            "giving-props": {
+                                "challengeName": "giving-props",
+                                "status": "start"
+                            },
+                            "notifications": {
+                                "challengeName": "notifications",
+                                "status": "locked"
+                            },
+                            "stopwatch": {
+                                "challengeName": "stopwatch",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "props-&-state"
+                    },
+                    "routing": {
+                        "challenges": {
+                            "ponoplayer": {
+                                "challengeName": "ponoplayer",
+                                "status": "locked"
+                            },
+                            "bowser": {
+                                "challengeName": "bowser",
+                                "status": "locked"
+                            },
+                            "link-to-the-path": {
+                                "challengeName": "link-to-the-path",
+                                "status": "locked"
+                            },
+                            "paper-route": {
+                                "challengeName": "paper-route",
+                                "status": "locked"
+                            },
+                            "know-your-routes": {
+                                "challengeName": "know-your-routes",
+                                "status": "start"
+                            }
+                        },
+                        "chapterName": "routing"
+                    }
+                }
+            },
+            "gen-ai": {
+                "createdAt": "Fri Sep 13 2024 01:44:32 GMT+0000 (Coordinated Universal Time)",
+                "courseName": "gen-ai",
+                "resumeExercise": "08-vibes",
+                "badgesEarned": [
+                    "language-models"
+                ],
+                "chapters": {
+                    "language-models": {
+                        "chapterName": "language-models",
+                        "challenges": {
+                            "gen-ai": {
+                                "challengeName": "gen-ai",
+                                "status": "complete"
+                            },
+                            "language-models": {
+                                "challengeName": "language-models",
+                                "status": "complete"
+                            },
+                            "tokenization": {
+                                "challengeName": "tokenization",
+                                "status": "complete"
+                            },
+                            "n-grams": {
+                                "challengeName": "n-grams",
+                                "status": "complete"
+                            },
+                            "text-classification": {
+                                "challengeName": "text-classification",
+                                "status": "complete"
+                            },
+                            "machine-translation": {
+                                "challengeName": "machine-translation",
+                                "status": "complete"
+                            },
+                            "spell-check": {
+                                "challengeName": "spell-check",
+                                "status": "complete"
+                            },
+                            "vibes": {
+                                "challengeName": "vibes",
+                                "status": "complete"
+                            }
+                        }
+                    }
+                }
+            },
+            "git-github": {
+                "createdAt": "Sat Apr 27 2024 02:16:35 GMT+0000 (Coordinated Universal Time)",
+                "courseName": "git-github",
+                "badgesEarned": [],
+                "resumeExercise": "01-introduction",
+                "chapters": {
+                    "exploring-repos": {
+                        "challenges": {
+                            "git-clone": {
+                                "challengeName": "git-clone",
+                                "status": "start"
+                            },
+                            "branch-out": {
+                                "challengeName": "branch-out",
+                                "status": "locked"
+                            },
+                            "yearbook": {
+                                "challengeName": "yearbook",
+                                "status": "locked"
+                            },
+                            "git-and-teams": {
+                                "challengeName": "git-and-teams",
+                                "status": "locked"
+                            },
+                            "pull-requests": {
+                                "challengeName": "pull-requests",
+                                "status": "locked"
+                            },
+                            "merges": {
+                                "challengeName": "merges",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "exploring-repos"
+                    },
+                    "your-first-repo": {
+                        "challenges": {
+                            "repositories": {
+                                "challengeName": "repositories",
+                                "status": "locked"
+                            },
+                            "git-commands": {
+                                "challengeName": "git-commands",
+                                "status": "locked"
+                            },
+                            "git-workflow": {
+                                "challengeName": "git-workflow",
+                                "status": "locked"
+                            },
+                            "read-me": {
+                                "challengeName": "read-me",
+                                "status": "locked"
+                            },
+                            "introduction": {
+                                "challengeName": "introduction",
+                                "status": "start"
+                            },
+                            "local-push": {
+                                "challengeName": "local-push",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "your-first-repo"
+                    }
+                }
+            },
+            "html": {
+                "createdAt": "Sat Apr 27 2024 01:13:18 GMT+0000 (Coordinated Universal Time)",
+                "courseName": "html",
+                "badgesEarned": [],
+                "resumeExercise": "01-shooting-star",
+                "chapters": {
+                    "elements": {
+                        "challenges": {
+                            "elemental": {
+                                "challengeName": "elemental",
+                                "status": "locked"
+                            },
+                            "newspaper": {
+                                "challengeName": "newspaper",
+                                "status": "locked"
+                            },
+                            "sous-chef": {
+                                "challengeName": "sous-chef",
+                                "status": "locked"
+                            },
+                            "favorite-band": {
+                                "challengeName": "favorite-band",
+                                "status": "locked"
+                            },
+                            "corporate-talk": {
+                                "challengeName": "corporate-talk",
+                                "status": "locked"
+                            },
+                            "shooting-star": {
+                                "challengeName": "shooting-star",
+                                "status": "start"
+                            },
+                            "lost-pet": {
+                                "challengeName": "lost-pet",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "elements"
+                    },
+                    "forms": {
+                        "challenges": {
+                            "welp": {
+                                "challengeName": "welp",
+                                "status": "locked"
+                            },
+                            "sign-up-v1": {
+                                "challengeName": "sign-up-v1",
+                                "status": "locked"
+                            },
+                            "google": {
+                                "challengeName": "google",
+                                "status": "start"
+                            },
+                            "sign-up-v2": {
+                                "challengeName": "sign-up-v2",
+                                "status": "locked"
+                            },
+                            "rsvp": {
+                                "challengeName": "rsvp",
+                                "status": "locked"
+                            },
+                            "contact-us": {
+                                "challengeName": "contact-us",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "forms"
+                    },
+                    "semantic-html": {
+                        "challenges": {
+                            "blog-posts": {
+                                "challengeName": "blog-posts",
+                                "status": "locked"
+                            },
+                            "the-header": {
+                                "challengeName": "the-header",
+                                "status": "locked"
+                            },
+                            "main-footer": {
+                                "challengeName": "main-footer",
+                                "status": "locked"
+                            },
+                            "personal-blog": {
+                                "challengeName": "personal-blog",
+                                "status": "start"
+                            },
+                            "figures": {
+                                "challengeName": "figures",
+                                "status": "locked"
+                            },
+                            "final-touches": {
+                                "challengeName": "final-touches",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "semantic-html"
+                    },
+                    "structure": {
+                        "challenges": {
+                            "blueprint": {
+                                "challengeName": "blueprint",
+                                "status": "start"
+                            },
+                            "family-tree": {
+                                "challengeName": "family-tree",
+                                "status": "locked"
+                            },
+                            "craigslist-ad": {
+                                "challengeName": "craigslist-ad",
+                                "status": "locked"
+                            },
+                            "myspace-top-8": {
+                                "challengeName": "myspace-top-8",
+                                "status": "locked"
+                            },
+                            "wiki-article": {
+                                "challengeName": "wiki-article",
+                                "status": "locked"
+                            },
+                            "power-rangers": {
+                                "challengeName": "power-rangers",
+                                "status": "locked"
+                            },
+                            "lorem-ipsum": {
+                                "challengeName": "lorem-ipsum",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "structure"
+                    }
+                }
+            },
+            "intermediate-javascript": {
+                "createdAt": "Tue Jul 02 2024 02:18:01 GMT+0000 (Coordinated Universal Time)",
+                "courseName": "intermediate-javascript",
+                "badgesEarned": [],
+                "resumeExercise": "01-introduction",
+                "chapters": {
+                    "async-js": {
+                        "challenges": {
+                            "random-numbers": {
+                                "challengeName": "random-numbers",
+                                "status": "locked"
+                            },
+                            "cosmic-birthday": {
+                                "challengeName": "cosmic-birthday",
+                                "status": "locked"
+                            },
+                            "on-the-side": {
+                                "challengeName": "on-the-side",
+                                "status": "start"
+                            },
+                            "subscribe-button": {
+                                "challengeName": "subscribe-button",
+                                "status": "locked"
+                            },
+                            "jokebook": {
+                                "challengeName": "jokebook",
+                                "status": "locked"
+                            },
+                            "trivia-night": {
+                                "challengeName": "trivia-night",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "async-js"
+                    },
+                    "ecmascript": {
+                        "challenges": {
+                            "99-bottles": {
+                                "challengeName": "99-bottles",
+                                "status": "locked"
+                            },
+                            "pack-your-bags": {
+                                "challengeName": "pack-your-bags",
+                                "status": "locked"
+                            },
+                            "most-streamed-songs": {
+                                "challengeName": "most-streamed-songs",
+                                "status": "locked"
+                            },
+                            "arrow-logic": {
+                                "challengeName": "arrow-logic",
+                                "status": "locked"
+                            },
+                            "reading-lists": {
+                                "challengeName": "reading-lists",
+                                "status": "locked"
+                            },
+                            "introduction": {
+                                "challengeName": "introduction",
+                                "status": "start"
+                            }
+                        },
+                        "chapterName": "ecmascript"
+                    }
+                }
+            },
+            "intermediate-python": {
+                "createdAt": "Sat Apr 27 2024 02:48:47 GMT+0000 (Coordinated Universal Time)",
+                "courseName": "intermediate-python",
+                "badgesEarned": [],
+                "resumeExercise": "01-hi-bestie",
+                "chapters": {
+                    "data-structures": {
+                        "challenges": {
+                            "fruit-cart": {
+                                "challengeName": "fruit-cart",
+                                "status": "locked"
+                            },
+                            "hi-bestie": {
+                                "challengeName": "hi-bestie",
+                                "status": "start"
+                            },
+                            "post-game-stats": {
+                                "challengeName": "post-game-stats",
+                                "status": "locked"
+                            },
+                            "find-my-friends": {
+                                "challengeName": "find-my-friends",
+                                "status": "locked"
+                            },
+                            "met-museum": {
+                                "challengeName": "met-museum",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "data-structures"
+                    },
+                    "file-and-error-handling": {
+                        "challenges": {
+                            "the-file-realm": {
+                                "challengeName": "the-file-realm",
+                                "status": "locked"
+                            },
+                            "bestsellers": {
+                                "challengeName": "bestsellers",
+                                "status": "locked"
+                            },
+                            "packing-list": {
+                                "challengeName": "packing-list",
+                                "status": "locked"
+                            },
+                            "uncharted-files": {
+                                "challengeName": "uncharted-files",
+                                "status": "locked"
+                            },
+                            "dear-diary": {
+                                "challengeName": "dear-diary",
+                                "status": "start"
+                            }
+                        },
+                        "chapterName": "file-and-error-handling"
+                    },
+                    "functional-programming": {
+                        "challenges": {
+                            "mental-math": {
+                                "challengeName": "mental-math",
+                                "status": "locked"
+                            },
+                            "grammys": {
+                                "challengeName": "grammys",
+                                "status": "locked"
+                            },
+                            "full-circle": {
+                                "challengeName": "full-circle",
+                                "status": "start"
+                            },
+                            "hola": {
+                                "challengeName": "hola",
+                                "status": "locked"
+                            },
+                            "so-random": {
+                                "challengeName": "so-random",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "functional-programming"
+                    },
+                    "testing": {
+                        "challenges": {
+                            "caffeinated": {
+                                "challengeName": "caffeinated",
+                                "status": "locked"
+                            },
+                            "test-run": {
+                                "challengeName": "test-run",
+                                "status": "start"
+                            },
+                            "unexpected": {
+                                "challengeName": "unexpected",
+                                "status": "locked"
+                            },
+                            "wealth-manager": {
+                                "challengeName": "wealth-manager",
+                                "status": "locked"
+                            },
+                            "assertions": {
+                                "challengeName": "assertions",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "testing"
+                    }
+                }
+            },
+            "java": {
+                "createdAt": "Fri Dec 06 2024 15:45:07 GMT+0000 (Coordinated Universal Time)",
+                "courseName": "java",
+                "badgesEarned": [],
+                "resumeExercise": "01-first-program",
+                "chapters": {
+                    "control-flow": {
+                        "chapterName": "control-flow",
+                        "challenges": {
+                            "oatmeal": {
+                                "challengeName": "oatmeal",
+                                "status": "start"
+                            },
+                            "cat-owner": {
+                                "challengeName": "cat-owner",
+                                "status": "locked"
+                            },
+                            "dog-owner": {
+                                "challengeName": "dog-owner",
+                                "status": "locked"
+                            },
+                            "rollercoaster": {
+                                "challengeName": "rollercoaster",
+                                "status": "locked"
+                            },
+                            "coffee-order": {
+                                "challengeName": "coffee-order",
+                                "status": "locked"
+                            }
+                        }
+                    },
+                    "hello-world": {
+                        "chapterName": "hello-world",
+                        "challenges": {
+                            "first-program": {
+                                "challengeName": "first-program",
+                                "status": "start"
+                            },
+                            "hello-world": {
+                                "challengeName": "hello-world",
+                                "status": "locked"
+                            },
+                            "cooking-mama": {
+                                "challengeName": "cooking-mama",
+                                "status": "locked"
+                            },
+                            "error-logs": {
+                                "challengeName": "error-logs",
+                                "status": "locked"
+                            },
+                            "music-wrapped": {
+                                "challengeName": "music-wrapped",
+                                "status": "locked"
+                            }
+                        }
+                    },
+                    "variables": {
+                        "chapterName": "variables",
+                        "challenges": {
+                            "storage-box": {
+                                "challengeName": "storage-box",
+                                "status": "start"
+                            },
+                            "id-card": {
+                                "challengeName": "id-card",
+                                "status": "locked"
+                            },
+                            "operation-0": {
+                                "challengeName": "operation-0",
+                                "status": "locked"
+                            },
+                            "escape-room": {
+                                "challengeName": "escape-room",
+                                "status": "locked"
+                            },
+                            "club-penguin": {
+                                "challengeName": "club-penguin",
+                                "status": "locked"
+                            }
+                        }
+                    }
+                }
+            },
+            "javascript": {
+                "createdAt": "Sat Apr 27 2024 01:45:05 GMT+0000 (Coordinated Universal Time)",
+                "courseName": "javascript",
+                "badgesEarned": [
+                    "the-console"
+                ],
+                "resumeExercise": "10-currency",
+                "chapters": {
+                    "arrays": {
+                        "chapterName": "arrays",
+                        "challenges": {
+                            "times-tables": {
+                                "challengeName": "times-tables",
+                                "status": "locked"
+                            },
+                            "dna": {
+                                "challengeName": "dna",
+                                "status": "locked"
+                            },
+                            "music-playlist": {
+                                "challengeName": "music-playlist",
+                                "status": "locked"
+                            },
+                            "wheres-waldo": {
+                                "challengeName": "wheres-waldo",
+                                "status": "locked"
+                            },
+                            "grocery-trip": {
+                                "challengeName": "grocery-trip",
+                                "status": "locked"
+                            },
+                            "five-boroughs": {
+                                "challengeName": "five-boroughs",
+                                "status": "open"
+                            }
+                        }
+                    },
+                    "conditionals": {
+                        "chapterName": "conditionals",
+                        "challenges": {
+                            "good-afternoon": {
+                                "challengeName": "good-afternoon",
+                                "status": "locked"
+                            },
+                            "ph-levels": {
+                                "challengeName": "ph-levels",
+                                "status": "locked"
+                            },
+                            "good-morning": {
+                                "challengeName": "good-morning",
+                                "status": "locked"
+                            },
+                            "magic-8-ball": {
+                                "challengeName": "magic-8-ball",
+                                "status": "locked"
+                            },
+                            "air-quality-index": {
+                                "challengeName": "air-quality-index",
+                                "status": "locked"
+                            },
+                            "rock-paper-scissors": {
+                                "challengeName": "rock-paper-scissors",
+                                "status": "locked"
+                            },
+                            "coin-flip": {
+                                "challengeName": "coin-flip",
+                                "status": "open"
+                            }
+                        }
+                    },
+                    "functions": {
+                        "challenges": {
+                            "clout": {
+                                "challengeName": "clout",
+                                "status": "locked"
+                            },
+                            "palindrome": {
+                                "challengeName": "palindrome",
+                                "status": "locked"
+                            },
+                            "e-mc-2": {
+                                "challengeName": "e-mc-2",
+                                "status": "locked"
+                            },
+                            "blast-off": {
+                                "challengeName": "blast-off",
+                                "status": "locked"
+                            },
+                            "greetings": {
+                                "challengeName": "greetings",
+                                "status": "start"
+                            }
+                        },
+                        "chapterName": "functions"
+                    },
+                    "loops": {
+                        "challenges": {
+                            "based-numbers": {
+                                "challengeName": "based-numbers",
+                                "status": "locked"
+                            },
+                            "not-tell-lies": {
+                                "challengeName": "not-tell-lies",
+                                "status": "locked"
+                            },
+                            "lucky-number": {
+                                "challengeName": "lucky-number",
+                                "status": "locked"
+                            },
+                            "duck-duck-goose": {
+                                "challengeName": "duck-duck-goose",
+                                "status": "start"
+                            },
+                            "even-the-odds": {
+                                "challengeName": "even-the-odds",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "loops"
+                    },
+                    "objects": {
+                        "challenges": {
+                            "pokemon": {
+                                "challengeName": "pokemon",
+                                "status": "locked"
+                            },
+                            "dream-car": {
+                                "challengeName": "dream-car",
+                                "status": "locked"
+                            },
+                            "round-trip": {
+                                "challengeName": "round-trip",
+                                "status": "locked"
+                            },
+                            "pizza-party": {
+                                "challengeName": "pizza-party",
+                                "status": "start"
+                            },
+                            "animal-farm": {
+                                "challengeName": "animal-farm",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "objects"
+                    },
+                    "the-console": {
+                        "chapterName": "the-console",
+                        "challenges": {
+                            "initials": {
+                                "challengeName": "initials",
+                                "status": "locked"
+                            },
+                            "time-capsule": {
+                                "challengeName": "time-capsule",
+                                "status": "locked"
+                            },
+                            "setting-up": {
+                                "challengeName": "setting-up",
+                                "status": "complete"
+                            },
+                            "the-console": {
+                                "challengeName": "the-console",
+                                "status": "complete"
+                            },
+                            "letter-tree": {
+                                "challengeName": "letter-tree",
+                                "status": "complete"
+                            },
+                            "secret-recipe": {
+                                "challengeName": "secret-recipe",
+                                "status": "complete"
+                            },
+                            "receipt": {
+                                "challengeName": "receipt",
+                                "status": "complete"
+                            },
+                            "let-const": {
+                                "challengeName": "let-const",
+                                "status": "open"
+                            }
+                        }
+                    },
+                    "trifecta": {
+                        "challenges": {
+                            "green-light-go": {
+                                "challengeName": "green-light-go",
+                                "status": "start"
+                            },
+                            "cap-that": {
+                                "challengeName": "cap-that",
+                                "status": "locked"
+                            },
+                            "hotline-bling": {
+                                "challengeName": "hotline-bling",
+                                "status": "locked"
+                            },
+                            "the-dom": {
+                                "challengeName": "the-dom",
+                                "status": "locked"
+                            },
+                            "chill-pill": {
+                                "challengeName": "chill-pill",
+                                "status": "locked"
+                            },
+                            "mood-ring": {
+                                "challengeName": "mood-ring",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "trifecta"
+                    },
+                    "variables": {
+                        "chapterName": "variables",
+                        "challenges": {
+                            "let-const": {
+                                "challengeName": "let-const",
+                                "status": "complete"
+                            },
+                            "data-types": {
+                                "challengeName": "data-types",
+                                "status": "complete"
+                            },
+                            "temperature": {
+                                "challengeName": "temperature",
+                                "status": "complete"
+                            },
+                            "bmi": {
+                                "challengeName": "bmi",
+                                "status": "complete"
+                            },
+                            "currency": {
+                                "challengeName": "currency",
+                                "status": "open"
+                            },
+                            "planet-weight": {
+                                "challengeName": "planet-weight",
+                                "status": "locked"
+                            }
+                        }
+                    }
+                }
+            },
+            "numpy": {
+                "createdAt": "Sat Jun 22 2024 08:04:00 GMT+0000 (Coordinated Universal Time)",
+                "courseName": "numpy",
+                "badgesEarned": [],
+                "resumeExercise": "01-the-notebook",
+                "chapters": {
+                    "basic-operations": {
+                        "challenges": {
+                            "shape-of-you": {
+                                "challengeName": "shape-of-you",
+                                "status": "locked"
+                            },
+                            "halleys-comet": {
+                                "challengeName": "halleys-comet",
+                                "status": "locked"
+                            },
+                            "tallest-building": {
+                                "challengeName": "tallest-building",
+                                "status": "start"
+                            },
+                            "titanic": {
+                                "challengeName": "titanic",
+                                "status": "locked"
+                            },
+                            "walking-steps": {
+                                "challengeName": "walking-steps",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "basic-operations"
+                    },
+                    "dear-data": {
+                        "challenges": {
+                            "import": {
+                                "challengeName": "import",
+                                "status": "locked"
+                            },
+                            "dear-data": {
+                                "challengeName": "dear-data",
+                                "status": "locked"
+                            },
+                            "the-notebook": {
+                                "challengeName": "the-notebook",
+                                "status": "start"
+                            },
+                            "bad-eggs": {
+                                "challengeName": "bad-eggs",
+                                "status": "locked"
+                            },
+                            "notifications": {
+                                "challengeName": "notifications",
+                                "status": "locked"
+                            },
+                            "population": {
+                                "challengeName": "population",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "dear-data"
+                    }
+                }
+            },
+            "p5js": {
+                "createdAt": "Sat Aug 31 2024 01:06:20 GMT+0000 (Coordinated Universal Time)",
+                "courseName": "p5js",
+                "badgesEarned": [],
+                "resumeExercise": "01-your-first-canvas",
+                "chapters": {
+                    "canvas-elements": {
+                        "challenges": {
+                            "your-first-canvas": {
+                                "challengeName": "your-first-canvas",
+                                "status": "start"
+                            },
+                            "breakout": {
+                                "challengeName": "breakout",
+                                "status": "locked"
+                            },
+                            "the-shape-tool": {
+                                "challengeName": "streaming-wars",
+                                "status": "locked"
+                            },
+                            "motion-picture": {
+                                "challengeName": "motion-picture",
+                                "status": "locked"
+                            },
+                            "brat-summer": {
+                                "challengeName": "brat-summer",
+                                "status": "locked"
+                            },
+                            "wasd": {
+                                "challengeName": "wasd",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "canvas-elements"
+                    }
+                }
+            },
+            "python": {
+                "createdAt": "Sat Apr 27 2024 01:54:23 GMT+0000 (Coordinated Universal Time)",
+                "courseName": "python",
+                "badgesEarned": [],
+                "resumeExercise": "01-setting-up",
+                "chapters": {
+                    "classes-and-objects": {
+                        "challenges": {
+                            "bank-accounts": {
+                                "challengeName": "bank-accounts",
+                                "status": "locked"
+                            },
+                            "bobs-burgers": {
+                                "challengeName": "bobs-burgers",
+                                "status": "locked"
+                            },
+                            "restaurants": {
+                                "challengeName": "restaurants",
+                                "status": "start"
+                            },
+                            "pokedex": {
+                                "challengeName": "pokedex",
+                                "status": "locked"
+                            },
+                            "favorite-cities": {
+                                "challengeName": "favorite-cities",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "classes-and-objects"
+                    },
+                    "control-flow": {
+                        "challenges": {
+                            "ph-levels": {
+                                "challengeName": "ph-levels",
+                                "status": "locked"
+                            },
+                            "sorting-hat": {
+                                "challengeName": "sorting-hat",
+                                "status": "locked"
+                            },
+                            "magic-8-ball": {
+                                "challengeName": "magic-8-ball",
+                                "status": "locked"
+                            },
+                            "grades": {
+                                "challengeName": "grades",
+                                "status": "locked"
+                            },
+                            "coin-flip": {
+                                "challengeName": "coin-flip",
+                                "status": "start"
+                            },
+                            "the-cyclone": {
+                                "challengeName": "the-cyclone",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "control-flow"
+                    },
+                    "functions": {
+                        "challenges": {
+                            "calculator": {
+                                "challengeName": "calculator",
+                                "status": "locked"
+                            },
+                            "fortune-cookie": {
+                                "challengeName": "fortune-cookie",
+                                "status": "locked"
+                            },
+                            "drive-thru": {
+                                "challengeName": "drive-thru",
+                                "status": "locked"
+                            },
+                            "dry": {
+                                "challengeName": "dry",
+                                "status": "start"
+                            },
+                            "mars-orbiter": {
+                                "challengeName": "mars-orbiter",
+                                "status": "locked"
+                            },
+                            "stonks": {
+                                "challengeName": "stonks",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "functions"
+                    },
+                    "hello-world": {
+                        "challenges": {
+                            "snail-mail": {
+                                "challengeName": "snail-mail",
+                                "status": "locked"
+                            },
+                            "initials": {
+                                "challengeName": "initials",
+                                "status": "locked"
+                            },
+                            "pattern": {
+                                "challengeName": "pattern",
+                                "status": "locked"
+                            },
+                            "hello-world": {
+                                "challengeName": "hello-world",
+                                "status": "locked"
+                            },
+                            "setting-up": {
+                                "challengeName": "setting-up",
+                                "status": "start"
+                            }
+                        },
+                        "chapterName": "hello-world"
+                    },
+                    "lists": {
+                        "challenges": {
+                            "reading-list": {
+                                "challengeName": "reading-list",
+                                "status": "locked"
+                            },
+                            "bucket-list": {
+                                "challengeName": "bucket-list",
+                                "status": "locked"
+                            },
+                            "grocery": {
+                                "challengeName": "grocery",
+                                "status": "start"
+                            },
+                            "to-do": {
+                                "challengeName": "to-do",
+                                "status": "locked"
+                            },
+                            "mixtape": {
+                                "challengeName": "mixtape",
+                                "status": "locked"
+                            },
+                            "inventory": {
+                                "challengeName": "inventory",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "lists"
+                    },
+                    "loops": {
+                        "challenges": {
+                            "guess-number": {
+                                "challengeName": "guess-number",
+                                "status": "locked"
+                            },
+                            "99-bottles": {
+                                "challengeName": "99-bottles",
+                                "status": "locked"
+                            },
+                            "detention": {
+                                "challengeName": "detention",
+                                "status": "locked"
+                            },
+                            "fizz-buzz": {
+                                "challengeName": "fizz-buzz",
+                                "status": "locked"
+                            },
+                            "enter-pin": {
+                                "challengeName": "enter-pin",
+                                "status": "start"
+                            }
+                        },
+                        "chapterName": "loops"
+                    },
+                    "modules": {
+                        "challenges": {
+                            "solar-system": {
+                                "challengeName": "solar-system",
+                                "status": "locked"
+                            },
+                            "slot-machine": {
+                                "challengeName": "slot-machine",
+                                "status": "start"
+                            },
+                            "forty-two": {
+                                "challengeName": "forty-two",
+                                "status": "locked"
+                            },
+                            "zen-of-python": {
+                                "challengeName": "zen-of-python",
+                                "status": "locked"
+                            },
+                            "countdown": {
+                                "challengeName": "countdown",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "modules"
+                    },
+                    "variables": {
+                        "challenges": {
+                            "temperature": {
+                                "challengeName": "temperature",
+                                "status": "locked"
+                            },
+                            "currency": {
+                                "challengeName": "currency",
+                                "status": "locked"
+                            },
+                            "data-types": {
+                                "challengeName": "data-types",
+                                "status": "start"
+                            },
+                            "pythagorean": {
+                                "challengeName": "pythagorean",
+                                "status": "locked"
+                            },
+                            "bmi": {
+                                "challengeName": "bmi",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "variables"
+                    }
+                }
+            },
+            "sql": {
+                "createdAt": "Sat Jun 22 2024 08:04:45 GMT+0000 (Coordinated Universal Time)",
+                "courseName": "sql",
+                "badgesEarned": [],
+                "resumeExercise": "01-introduction",
+                "chapters": {
+                    "aggregates": {
+                        "challenges": {
+                            "billboard-hot-100": {
+                                "challengeName": "billboard-hot-100",
+                                "status": "locked"
+                            },
+                            "old-&-new": {
+                                "challengeName": "old-&-new",
+                                "status": "locked"
+                            },
+                            "counting-rows": {
+                                "challengeName": "counting-rows",
+                                "status": "locked"
+                            },
+                            "group-by": {
+                                "challengeName": "group-by",
+                                "status": "locked"
+                            },
+                            "total-playtime": {
+                                "challengeName": "total-playtime",
+                                "status": "locked"
+                            },
+                            "music-playlist": {
+                                "challengeName": "music-playlist",
+                                "status": "start"
+                            },
+                            "video-games": {
+                                "challengeName": "video-games",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "aggregates"
+                    },
+                    "new-table": {
+                        "challenges": {
+                            "insert-into": {
+                                "challengeName": "insert-into",
+                                "status": "locked"
+                            },
+                            "update-set": {
+                                "challengeName": "update-set",
+                                "status": "locked"
+                            },
+                            "create-table": {
+                                "challengeName": "create-table",
+                                "status": "start"
+                            },
+                            "delete-from": {
+                                "challengeName": "delete-from",
+                                "status": "locked"
+                            },
+                            "alter-table": {
+                                "challengeName": "alter-table",
+                                "status": "locked"
+                            },
+                            "bffs": {
+                                "challengeName": "bffs",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "new-table"
+                    },
+                    "queries": {
+                        "challenges": {
+                            "nyc-restaurants": {
+                                "challengeName": "nyc-restaurants",
+                                "status": "locked"
+                            },
+                            "select": {
+                                "challengeName": "select",
+                                "status": "locked"
+                            },
+                            "like": {
+                                "challengeName": "like",
+                                "status": "locked"
+                            },
+                            "order-by": {
+                                "challengeName": "order-by",
+                                "status": "locked"
+                            },
+                            "rotten-tomatoes": {
+                                "challengeName": "rotten-tomatoes",
+                                "status": "locked"
+                            },
+                            "streaming-wars": {
+                                "challengeName": "streaming-wars",
+                                "status": "locked"
+                            },
+                            "introduction": {
+                                "challengeName": "introduction",
+                                "status": "start"
+                            },
+                            "golden-age": {
+                                "challengeName": "golden-age",
+                                "status": "locked"
+                            }
+                        },
+                        "chapterName": "queries"
+                    }
+                }
+            }
+        },
+        "isClub": false
+    },
+    "status": "success"
+}

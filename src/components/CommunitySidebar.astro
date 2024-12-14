@@ -1,0 +1,68 @@
+---
+const { setSelectedCategory } = Astro.props;
+---
+
+<table style="background-image: url('../img/animated/matrix.gif'); border-color:grey; border-width:2px" border="2" cellspacing="3" cellpadding="3" align="center">
+    <tbody>
+        <tr>
+            <td><a style="color:white; text-decoration:none" href="#" data-category="Home">Home</a></td>
+        </tr>
+        <tr>
+            <td><a style="color:white; text-decoration:none" href="#" data-category="project-showcase">Project Showcase</a></td>
+        </tr>
+        <tr>
+            <td><a style="color:white; text-decoration:none" href="#" data-category="question-of-the-week">Question of the Week</a></td>
+        </tr>
+        <tr>
+            <td><a style="color:white; text-decoration:none" href="#" data-category="monthly-challenge">Monthly Challenge</a></td>
+        </tr>
+        <tr>
+            <td><a style="color:white; text-decoration:none" href="/hackathon">Hackathon</a></td>
+        </tr>
+        <tr>
+            <td><a style="color:white; text-decoration:none" href="/worlds">Town Square</a></td>
+        </tr>
+        <tr>
+            <td style="color:greenyellow; text-align:center;">Channels</td>
+        </tr>
+        <tr>
+            <td><a style="color:white; text-decoration:none" href="#" data-category="main">General</a></td>
+        </tr>
+        <tr>
+            <td><a style="color:white; text-decoration:none" href="#" data-category="introduction">Introductions</a></td>
+        </tr>
+        <tr>
+            <td><a style="color:white; text-decoration:none" href="#" data-category="python">Python</a></td>
+        </tr>
+        <tr>
+            <td><a style="color:white; text-decoration:none" href="#" data-category="javascript">JavaScript</a></td>
+        </tr>
+        <tr>
+            <td><a style="color:white; text-decoration:none" href="#" data-category="web-dev">Web Dev</a></td>
+        </tr>
+        <tr>
+            <td><a style="color:white; text-decoration:none" href="#" data-category="career">Career</a></td>
+        </tr>
+        <tr>
+            <td><a style="color:white; text-decoration:none" href="#" data-category="memes">Memes</a></td>
+        </tr>
+        <tr>
+            <td><a style="color:white; text-decoration:none" href="#" data-category="30-nites-of-code">#30NitesOfCode</a></td>
+        </tr>
+        <tr>
+            <td><a style="color:white; text-decoration:none" href="#" data-category="pets">Pets</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<script>
+    document.querySelectorAll('a[data-category]').forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const category = (e.target as HTMLElement).getAttribute('data-category');
+            document.dispatchEvent(new CustomEvent('categoryChanged', { 
+                detail: { category }
+            }));
+        });
+    });
+</script>
