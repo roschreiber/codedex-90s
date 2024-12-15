@@ -1,0 +1,6 @@
+---
+const { width, height } = Astro.props;
+import { Image } from 'astro:assets';
+import club from '/public/img/animated/clubcropped.gif';
+---
+<Image src={club} alt="CLUB" width={width} height={height} />

@@ -1,0 +1,105 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+import CodedexImage from '../components/CodedexImage.astro';
+import ClubImage from '../components/ClubImage.astro';
+import club from '/public/img/animated/club.gif';
+import star from '/public/img/animated/starfull.gif';
+import crying from '/public/img/animated/crying.gif';
+import dollarspindownd from '/public/img/animated/dollarspindownd.gif';
+import down from '/public/img/animated/Down.gif';
+import hundred from '/public/img/animated/100.gif';
+import Money from '../components/Money.astro';
+import githubOld from '/public/img/animated/githubold.gif';
+import csta from '/public/img/animated/csta.gif';
+import usaFlag from '/public/img/animated/usa1.gif';
+import '../styles/money.css';
+---
+
+<Layout>
+    <br><br>
+    <div style="text-align: center;">
+        <div>
+            <a href="https://www.glitter-graphics.com/myspace/text_generator.php" target=_blank>
+                <img src="https://text.glitter-graphics.net/amflag/j.gif" border=0>
+                <img src="https://text.glitter-graphics.net/amflag/o.gif" border=0>
+                <img src="https://text.glitter-graphics.net/amflag/i.gif" border=0>
+                <img src="https://text.glitter-graphics.net/amflag/n.gif" border=0>
+                <img src="https://dl3.glitter-graphics.net/empty.gif" width=20 border=0>
+                <img src="https://text.glitter-graphics.net/amflag/t.gif" border=0>
+                <img src="https://text.glitter-graphics.net/amflag/h.gif" border=0>
+                <img src="https://text.glitter-graphics.net/amflag/e.gif" border=0>
+            </a>
+        </div>
+        <div>
+            <Image src={club} alt="Club" style="width: 30%; height: 30%; margin-top:-80px;" />
+        </div>
+        <p style="margin-top: -50px;"><CodedexImage width="151" height="20"/> <ClubImage width="101" height="20"/> allows you to unlock your full potential when it comes to coding.</p>
+        <br>
+        <div style="position: relative; display: inline-block;">
+            <table style="background-image: url('/codedex-90s/img/animated/matrix.gif'); border-color:grey; border-width:2px; margin: 0 auto;" border="2" cellspacing="3" cellpadding="3">
+                <thead>
+                    <tr>
+                        <th style="color:white;"><Image src={down} alt="Down Arrow" width={20} height={20} /> <Image src={down} alt="Down Arrow" width={20} height={20} /> <Image src={down} alt="Down Arrow" width={20} height={20} /></th>
+                        <th style="color:white;">CLUB Member</th>
+                        <th style="color:white;">Normal Dude</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="color:white;">Access to the
+                            <b style="font-size:18px"><a href="https://www.glitter-graphics.com" style="text-decoration: none"><font color=#ff0000>b</font><font color=#bfad3f>e</font><font color=#7ffe7f>s</font><font color=#3fc6bf>t</font></a></b>
+                            courses</td>
+                        <td style="color:greenyellow; font-weight: bold;">
+                            Yes  <Image src={star} alt="star" style="width: 20px; height: 20px;" />
+                        </td>
+                        <td style="color:red;">
+                            No  <Image src={crying} alt="Crying" style="width: 20px; height: 20px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color:white;">Cool title next to your name</td>
+                        <td style="color:greenyellow; font-weight: bold;">
+                            Yes  <Image src={star} alt="star" style="width: 20px; height: 20px;" />
+                        </td>
+                        <td style="color:red;">
+                            No  <Image src={crying} alt="Crying" style="width: 20px; height: 20px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color:white;">Special raffles</td>
+                        <td style="color:greenyellow; font-weight: bold;">
+                            Yes  <Image src={star} alt="star" style="width: 20px; height: 20px;" />
+                        </td>
+                        <td style="color:red;">
+                            No  <Image src={crying} alt="Crying" style="width: 20px; height: 20px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color:white;">Community recognition</td>
+                        <td style="color:greenyellow; font-weight: bold;">
+                            Yes  <Image src={star} alt="star" style="width: 20px; height: 20px;" />
+                        </td>
+                        <td style="color:red;">
+                            No  <Image src={crying} alt="Crying" style="width: 20px; height: 20px;" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <Image src={dollarspindownd} alt="Dollar Spin Down" style="position: absolute; top: -20px; right: -10px; width: 30px; height: 40px;" />
+            <Image src={hundred} alt="100" style="position: absolute; bottom: -10px; left: -20px; width: 40px; height: 40px;" />
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <p style="margin: 0;"><ClubImage width="101" height="20" style="margin-top: 100px"/>  is <a style="color: red;" href="https://www.youtube.com/watch?v=vJcWgwnp5F4" target="_blank">100%</a> Trusted by learnes from:</p>
+            <Image src={githubOld} width={70} height={70} alt="Github - Social Coding" style="margin-left: -5px;" />
+            <Image src={csta} width={70} height={70} alt="CSTA" style="margin-left: -5px;" />
+            <Image src={usaFlag} width={60} height={45} alt="USA Flag" style="margin-left: 5px;" />
+        </div>
+    </div>
+    <Money />
+    <style>
+        body {
+            background-image: url('/codedex-90s/img/animated/mat_1green_.gif');
+        }
+    </style>
+</Layout>

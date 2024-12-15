@@ -12,7 +12,7 @@ import money from '/public/img/animated/money07.gif';
         <marquee direction="left">
            <a href="https://www.youtube.com/watch?v=0Dpw0VvH4m0"><img alt="Kirby flying right" src="/codedex-90s/img/animated/kirbster.gif" style="margin-right: 5px; margin-bottom: -5px;"></a>
             <span><CodedexImage width="151" height="20"/> <b style="font-size:20px">HOLIDAY HACKATHON LIVE NOW!</b></span> 
-            <img src="/codedex-90s/img/animated/kirbster-enemy.gif" alt="Waddledoo chasing Kirby" style="margin-left: 5px; margin-bottom: -5px; cursor: pointer;" onclick="document.getElementById('waddledeeSound').play()">
+            <img src="/codedex-90s/img/animated/kirbster-enemy.gif" alt="Waddledoo chasing Kirby" style="margin-left: 5px; margin-bottom: -5px; cursor: pointer;" onclick="const audio = document.getElementById('waddledeeSound'); audio.volume = 0.5; audio.play();">
         </marquee>
         <br>
         <Image src={hacker} alt="Person Hacking on a Computer" />
@@ -28,7 +28,7 @@ import money from '/public/img/animated/money07.gif';
                     <td><a style="color:white; text-decoration:none" href="/codedex-90s/">Home</a></td>
                     <td><a style="color:white; text-decoration:none" href="/learn">Learn</a></td>
                     <td><a style="color:white; text-decoration:none" href="/codedex-90s/community">Community</a></td>
-                    <td><Image src={money} alt="Spinning Dollar Bill" width="16" height="14"/><a style="color:greenyellow; text-decoration:none" href="/club"> Join Club <Image src={money} alt="Spinning Dollar Bill" width="16" height="14"/></a></td>
+                    <td><Image src={money} alt="Spinning Dollar Bill" width="16" height="14"/><a style="color:greenyellow; text-decoration:none" href="codedex-90s/club"> Join Club <Image src={money} alt="Spinning Dollar Bill" width="16" height="14"/></a></td>
                 </tr>
             </tbody>
         </table>
