@@ -4,6 +4,7 @@ import { Image } from 'astro:assets';
 import CodedexImage from '../components/CodedexImage.astro';
 import ClubImage from '../components/ClubImage.astro';
 import clublogo from '/public/img/animated/CLUB.gif';
+import CoolBox from '../components/CoolBox.astro';
 import star from '/public/img/animated/starfull.gif';
 import crying from '/public/img/animated/crying.gif';
 import dollarspindownd from '/public/img/animated/dollarspindownd.gif';
@@ -13,6 +14,8 @@ import Money from '../components/Money.astro';
 import githubOld from '/public/img/animated/githubold.gif';
 import csta from '/public/img/animated/csta.gif';
 import usaFlag from '/public/img/animated/usa1.gif';
+import freemoney from '/public/img/animated/freemoney.gif';
+import magichat from '/public/img/animated/magichat.gif';
 import '../styles/money.css';
 ---
 
@@ -89,8 +92,34 @@ import '../styles/money.css';
             <Image src={dollarspindownd} alt="Dollar Spin Down" style="position: absolute; top: -20px; right: -10px; width: 30px; height: 40px;" />
             <Image src={hundred} alt="100" style="position: absolute; bottom: -10px; left: -20px; width: 40px; height: 40px;" />
         </div>
-        <div style="display: flex; justify-content: center; align-items: center;">
+        <br><br>
+        <p>We offer two different types of <ClubImage width="101" height="20" style="margin-top: 100px"/>, with different prices.</p>
+        <div style="margin-top: 20px; display: flex; justify-content: center; gap: 20px;">
+            <div style="background-image: url('/codedex-90s/img/animated/matrix.gif'); border-color:grey; border-width:2px; border-style: solid; padding: 10px; text-align: center; position: relative;">
+                <h3 style="color:white;">Club</h3>
+                <p style="color:greenyellow; font-weight: bold;">$7.99/month</p>
+                <p style="color:white;">Access to <span style="color:#FF0000">E</span><span style="color:#FF9900">v</span><span style="color:#CCFF00">e</span><span style="color:#33FF00">r</span><span style="color:#00FF66">y</span><span style="color:#00FFFF">t</span><span style="color:#0066FF">h</span><span style="color:#3300FF">i</span><span style="color:#CC00FF">n</span><span style="color:#FF0099">g</span></p>
+                <a href="https://www.codedex.io/pricing" style="display: block; margin-top: 10px;">
+                    <button class="hacker-button">Join Club</button>
+                </a>
+                <Image src={magichat} alt="Magic Hat" style="position: absolute; top: -20px; left: -30px; width: 80px; height: 80px;" />
+            </div>
+            <div style="background-image: url('/codedex-90s/img/animated/matrix.gif'); border-color:grey; border-width:2px; border-style: solid; padding: 10px; text-align: center; position: relative;">
+                <h3 style="color:white;">Club 4 Life</h3>
+                <p style="color:greenyellow; font-weight: bold;">$300 one time</p>
+                <p style="color:white;"><a style="text-decoration: none"><font color=#ff0000>A</font><font color=#f3220b>c</font><font color=#e74417>c</font><font color=#dc6522>e</font><font color=#d0842e>s</font><font color=#c5a039>s</font> <font color=#add051>t</font><font color=#a2e25c>o</font> <font color=#8bf973>C</font><font color=#7ffe7f>l</font><font color=#73fe8b>u</font><font color=#68f996>b</font> <font color=#51e2ad>F</font><font color=#45d0b9>o</font><font color=#39bbc5>r</font><font color=#2ea1d0>e</font><font color=#2285dc>v</font><font color=#1766e7>e</font><font color=#0b45f3>r</font></a>*</p>
+                <a href="https://www.codedex.io/pricing" style="display: block; margin-top: 10px;">
+                    <button class="hacker-button">Join Club 4 Life</button>
+                </a>
+                <Image src={freemoney} alt="Free Money" style="position: absolute; top: -60px; right: -30px; width: 60px; height: 80px;" />
+            </div>
+        </div>
+        <br>
+        <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+            <p style="margin: 0;">Not ready to buy yet?</p>
             <p style="margin: 0;"><ClubImage width="101" height="20" style="margin-top: 100px"/>  is <a style="color: red;" href="https://www.youtube.com/watch?v=vJcWgwnp5F4" target="_blank">100%</a> Trusted by learnes from:</p>
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center;">
             <Image src={githubOld} width={70} height={70} alt="Github - Social Coding" style="margin-left: -5px;" />
             <Image src={csta} width={70} height={70} alt="CSTA" style="margin-left: -5px;" />
             <Image src={usaFlag} width={60} height={45} alt="USA Flag" style="margin-left: 5px;" />
