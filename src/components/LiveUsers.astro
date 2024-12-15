@@ -27,11 +27,11 @@ import CoolBox from "./CoolBox.astro";
     try {
       const response = await fetch('https://www.codedex.io/api/community/liveUsers/getLiveUsers');
       const data = await response.json();
-      document.querySelector('#total-users').innerText = `Total Online: ${data.totalUsers}`;
+      document.getElementById('online-members').textContent = `Total Online: ${data.totalUsers}`;
       
       const playersResponse = await fetch('https://oyster-app-uilsb.ondigitalocean.app/players');
       const playersData = await playersResponse.json();
-      document.querySelector('#total-players').innerText = `Total Players: ${playersData.length}`;
+      document.getElementById('town-square-players').textContent = `Total Players: ${playersData.length}`;
     } catch (error) {
       console.error('Error fetching live users:', error);
     }

@@ -19,7 +19,7 @@ const { title, image, text, stars, borderColor, titleImage, afterTextImage, afte
         {!image && !titleImage && (
             <h2 style={`font-size: 1.5rem; color: ${borderColor};`}>{title}</h2>
         )}
-        <p id={title === "Online Members" ? "total-users" : title === "Town Square Players" ? "total-players" : ""}>{text}</p>
+        <p id={title.toLowerCase().replace(/\s+/g, '-')}>{text}</p>
         {afterTextImage && (
             <div style="margin-top: 10px;">
                 <img src={afterTextImage} alt="After Text Image" style={`width: ${afterTextImageWidth}; height: ${afterTextImageHeight};`} />

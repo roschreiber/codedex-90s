@@ -47,7 +47,7 @@ const playersLength = playersData.length;
     <div style="margin: 20px 0;">
       <Image src={world} width={100} height={100} alt="Spinning World" />
     </div>
-    <p>Currently, <b style="font-size: 20px;">{playersLength}</b> people are using this technique.</p>
+    <p>Currently, <b id="worlds-player-count" style="font-size: 20px;">{playersLength}</b> people are using this technique.</p>
     <br>
     <a href="https://www.codedex.io/community/worlds" style="text-decoration: none;">
       <button class="hacker-button">Play now</button>
@@ -71,5 +71,17 @@ const playersLength = playersData.length;
     <img class="baloon-cat" src="/codedex-90s/img/animated/hot-air-baloon.gif" alt="">
     <script>window.NekoType = "silver";</script>
     <script src="https://webneko.net/n20171213.js" defer></script>
+    <script>
+        async function updateWorldsCount() {
+            try {
+                const playersResponse = await fetch('https://oyster-app-uilsb.ondigitalocean.app/players');
+                const playersData = await playersResponse.json();
+                document.getElementById('worlds-player-count').textContent = playersData.length;
+            } catch (error) {
+                console.error('Error fetching players:', error);
+            }
+        }
+        setInterval(updateWorldsCount, 15000);
+    </script>
   </body>
 </Layout>
