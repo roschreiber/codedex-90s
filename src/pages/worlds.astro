@@ -1,0 +1,75 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CodedexImage from '../components/CodedexImage.astro';
+import ClubImage from '../components/ClubImage.astro';
+import { Image } from 'astro:assets';
+import '../styles/global.css';
+
+import starfull from '/public/img/animated/starfull.gif';
+import world from '/public/img/animated/world_03.gif';
+import anibonuscoin from '/public/img/animated/anibonuscoin.gif';
+import magichat from '/public/img/animated/magichat.gif';
+import freemoney from '/public/img/animated/freemoney.gif';
+import beesunglasses from '/public/img/animated/beesunglasses.gif';
+import spinningskull from '/public/img/animated/spinningskull.gif';
+
+const playersResponse = await fetch('https://oyster-app-uilsb.ondigitalocean.app/players');
+const playersData = await playersResponse.json();
+const playersLength = playersData.length;
+---
+<Layout>
+  <div style="text-align: center; position: relative;">
+    <div style="position: relative; height: 50px;">
+      <Image src={starfull} width={50} height={50} alt="Star" style="position: absolute; left: 20%; top: 0;" />
+      <Image src={starfull} width={50} height={50} alt="Star" style="position: absolute; right: 20%; top: 0;" />
+    </div>
+    <br><br>
+    <a>
+      <img src="https://text.glitter-graphics.net/psy/w.gif" border=0>
+      <img src="https://text.glitter-graphics.net/psy/o.gif" border=0>
+      <img src="https://text.glitter-graphics.net/psy/r.gif" border=0>
+      <img src="https://text.glitter-graphics.net/psy/l.gif" border=0>
+      <img src="https://text.glitter-graphics.net/psy/d.gif" border=0>
+      <img src="https://text.glitter-graphics.net/psy/s.gif" border=0>
+    </a>
+    <br><br>
+    <p>We at <CodedexImage width="151" height="20"/> have designed a unique teleportation technique, which allows <b style="font-size: 20px">you</b> to directly interact with other users of the platform.</p>
+    <p>We call this feature 
+      <a style="display: inline-block; vertical-align: middle; margin-bottom: 0px;">
+        <img src="https://text.glitter-graphics.net/psy/w.gif" border=0 style="height: 20px;">
+        <img src="https://text.glitter-graphics.net/psy/o.gif" border=0 style="height: 20px;">
+        <img src="https://text.glitter-graphics.net/psy/r.gif" border=0 style="height: 20px;">
+        <img src="https://text.glitter-graphics.net/psy/l.gif" border=0 style="height: 20px;">
+        <img src="https://text.glitter-graphics.net/psy/d.gif" border=0 style="height: 20px;">
+        <img src="https://text.glitter-graphics.net/psy/s.gif" border=0 style="height: 20px;">
+      </a>.
+    </p>
+    <div style="margin: 20px 0;">
+      <Image src={world} width={100} height={100} alt="Spinning World" />
+    </div>
+    <p>Currently, <b style="font-size: 20px;">{playersLength}</b> people are using this technique.</p>
+    <br>
+    <a href="https://www.codedex.io/community/worlds" style="text-decoration: none;">
+      <button class="hacker-button">Play now</button>
+    </a>
+    <div style="margin-top: 20px; display: flex; justify-content: center; gap: 20px;">
+      <div style="background-image: url('/codedex-90s/img/animated/matrix.gif'); border-color:grey; border-width:2px; border-style: solid; padding: 10px; text-align: center; position: relative; width: 500px;">
+        <h3 style="color:white;">FAQ</h3>
+        <p style="color:white;"><b style="font-size: 20px">Q:</b> How does this work?</p>
+        <p style="color:white;"><b style="font-size: 20px">A:</b> We use high end computer over the internet connection techniques.</p>
+        <p style="color:white;"><b style="font-size: 20px">Q:</b> Do I need <ClubImage width="101" height="20"/> for this?</p>
+        <p style="color:white;"><b style="font-size: 20px">A:</b> No. we are nice enough to allow you to use it without <ClubImage width="101" height="20" style="margin-top: 100px"/>.</p>
+        <Image src={spinningskull} alt="Bee with Sunglasses" style="position: absolute; top: -20px; left: -30px; width: 84px; height: 60px;" />
+        <Image src={beesunglasses} alt="Spinning Skull" style="position: absolute; bottom: -10px; right: -10px; width: 60px; height: 60px;" />
+      </div>
+    </div>
+    <br>
+  </div>
+  <body>
+    <img class="blimp-cat" src="/codedex-90s/img/animated/blimp-cat.gif" alt="">
+    <img class="blimp-cat-2" src="/codedex-90s/img/animated/blimp-cat.gif" alt="">
+    <img class="baloon-cat" src="/codedex-90s/img/animated/hot-air-baloon.gif" alt="">
+    <script>window.NekoType = "silver";</script>
+    <script src="https://webneko.net/n20171213.js" defer></script>
+  </body>
+</Layout>
