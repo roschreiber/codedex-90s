@@ -50,12 +50,12 @@ const posts = profiles.flatMap(profile => {
     content: post.content,
     tags: [post.communityName],
     author: profile.data.user.name,
-    photoURL: profile.data.user.photoURL
+    photoURL: profile.data.user.photoURL,
+    afterTextImage: post.images.length > 0 ? post.images[0].url : null,
+    afterTextImageWidth: "250px", //re-scale images to fit the container
+    afterTextImageHeight: "200px"
   }));
 });
-
-// Show only 5 random posts initially for Home
-const initialPosts = posts.sort(() => 0.5 - Math.random()).slice(0, 5);
 
 console.log('Processed posts:', posts);
 ---
@@ -63,7 +63,7 @@ console.log('Processed posts:', posts);
 <div id="posts-container">
   {posts.map(post => (
     <div class="post-item" data-tags={post.tags.join(',')} style="display: none;">
-      <Coolbox key={post.id} title={post.title} content={post.content} image={post.photoURL} borderColor="#44547c"/>
+      <Coolbox key={post.id} title={post.title} content={post.content} image={post.photoURL} borderColor="#44547c" afterTextImage={post.afterTextImage} afterTextImageWidth={post.afterTextImageWidth} afterTextImageHeight={post.afterTextImageHeight} />
     </div>
   ))}
 </div>
@@ -93,7 +93,6 @@ console.log('Processed posts:', posts);
     }
   }) as EventListener);
 
-  // Initially show 5 random posts for Home
   document.dispatchEvent(new CustomEvent('categoryChanged', { 
     detail: { category: 'Home' }
   }));
