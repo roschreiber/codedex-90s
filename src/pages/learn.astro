@@ -1,0 +1,94 @@
+---
+import Layout from "../layouts/Layout.astro";
+import LearnSidebar from "../components/LearnSidebar.astro";
+import CodedexImage from "../components/CodedexImage.astro";
+import ClubImage from "../components/ClubImage.astro";
+---
+
+<Layout>
+  <div style="display: flex; justify-content: center;">
+    <div class="sidebar" style="flex: 1;">
+      <LearnSidebar />
+    </div>
+    <div class="main-content" style="flex: 2; margin-top: 15px; text-align: center;">
+      <div id="course-content">
+        <div data-category="html" class="course" style="display: none;">
+          <p><b style="font-size: 22px;">HTML Course</b> <img src="/codedex-90s/img/animated/community/e-mail_1.gif" alt="Email-Logo" style="width:22px; height:22px; margin-bottom: -5px;"></p>
+          <p>HTML, or <u>HyperText Markup Language</u>, is the backbone of the web. It was created in 1991 by Tim Berners-Lee, a British computer scientist, to help scientists share documents and data across computers. The idea was simple: provide a universal system for linking and displaying information on the internet.</p>
+          <br>
+          <p>Over the years, HTML evolved from a basic tool for text documents to a powerful language capable of structuring entire websites. Organizations like the World Wide Web Consortium (W3C) now oversee its development, ensuring it remains relevant as technology advances.</p>
+          <br>
+          <p>Today, HTML is the foundation of all websites, defining not only their structure but also how they interact with other technologies like CSS and JavaScript. It’s more than just code—it’s the language that connects people to the digital world.</p>
+          <br>
+          <p>And that, is the end of HTML Chapter 1.</p>
+        </div>
+        <div data-category="css" class="course" style="display: none;">
+          <p><b style="font-size: 22px;">CSS Course</b> <img src="/codedex-90s/img/animated/paintbrush.gif" alt="Paintbrush" style="width:22px; height:22px; margin-bottom: -5px;"></p>
+          <p>CSS, or <u>Cascading Style Sheets</u>, was introduced in 1996 to solve a growing problem on the web: how to make websites look good. Before CSS, all the styling (like colors, fonts, and layouts) had to be written directly into the HTML, making websites messy and hard to manage.</p>
+          <br>
+          <p>Håkon Wium Lie, a Norwegian computer scientist, proposed CSS to separate content (HTML) from design. This made it easier for developers to change the look of a site without touching the structure. The "cascading" part of CSS refers to how styles are applied in a hierarchy, allowing rules to override each other when needed.</p>
+          <br>
+          <p>Today, CSS is what brings life and beauty to websites. It allows for responsive designs, animations, and layouts that adapt to different screen sizes, making the web more engaging and user-friendly.</p>
+          <br>
+          <p>And that, is the end of CSS Chapter 1.</p>
+        </div>
+        <div data-category="js" class="course" style="display: none;">
+          <p><b style="font-size: 22px;">JavaScript Course</b> <img src="/codedex-90s/img/animated/community/scroll_t.gif" alt="Scroll" style="width:22px; height:22px; margin-bottom: -5px;"></p>
+          <p>JavaScript, often called JS, was created in just 10 days in 1995 by Brendan Eich while working at Netscape. It was originally intended to make websites more dynamic and interactive, enabling features like pop-ups, form validation, and basic animations.</p>
+          <br>
+          <p>At first, JavaScript was seen as a simple scripting tool, but over time, its potential grew. With the rise of browsers like Chrome and frameworks like Node.js, JavaScript evolved into a powerful, full-fledged programming language.</p>
+          <br>
+          <p>Today, JavaScript is the engine of interactivity on the web, powering everything from real-time chats to complex web applications. It bridges the gap between static content and user-driven experiences, making the internet a more interactive and engaging space.</p>
+          <br>
+          <p>And that, is the end of JavaScript Chapter 1.</p>
+        </div>
+        <div data-category="c" class="course" style="display: none;">
+          <p><b style="font-size: 22px;">C Course</b> <img src="/codedex-90s/img/animated/hammer.gif" alt="Hammer" style="width:22px; height:22px; margin-bottom: -5px;"></p>
+          <p>C is a <u>foundational programming language</u> created in <u>1972</u> by Dennis Ritchie at Bell Labs. It was designed to improve the development of operating systems, particularly UNIX, by offering a balance between <u>low-level</u> control and <u>high-level simplicity</u>.</p>
+          <br>
+          <p>What made C revolutionary was its ability to work closely with computer hardware while still being relatively easy to write and understand. This made it ideal for system-level programming, and its portability allowed programs written in C to run on different machines with minimal changes.</p>
+          <br>
+          <p>C became the <u>blueprint for modern programming</u>, influencing languages like C++, Java, and Python. Even today, it remains widely used for performance-critical applications, embedded systems, and operating systems, forming the backbone of countless technologies we rely on.</p>
+          <br>
+          <p>And that, is the end of C Chapter 1.</p>
+        </div>
+        <div data-category="fortran" class="course" style="display: none;">
+          <p><b style="font-size: 22px;">Fortran Course</b> <img src="/codedex-90s/img/animated/BluePotion.gif" alt="Potion with blue liquid" style="width:18px; height:22px; margin-bottom: -5px;"></p>
+          <p>Fortran, short for <u>Formula Translation</u>, was created in <u>1957</u> by John Backus and his team at IBM. It was the <u>first high-level programming language</u>, designed specifically for scientists and engineers to perform complex mathematical and scientific calculations.</p>
+          <br>
+          <p>Before Fortran, programming was done in assembly language, which was tedious and error-prone. Fortran revolutionized computing by making it easier to write programs using readable formulas and commands, drastically improving productivity.</p>
+          <br>
+          <p>Fortran became the <u>go-to language for scientific computing</u>, powering advancements in fields like physics, weather forecasting, and aerospace. Even decades later, it’s still used in high-performance computing, a testament to its efficiency and legacy.</p>
+          <br>
+          <p>And that, is the end of Fortran Chapter 1.</p>
+        </div>
+        <div>
+          <br>
+          <p><b style="font-size: 22px;"><a style="text-decoration: none"><font color=#ff0000>W</font><font color=#e54b19>a</font><font color=#cc8f33>n</font><font color=#b2c74c>t</font> <font color=#7ffe7f>m</font><font color=#66f899>o</font><font color=#4cdcb2>r</font><font color=#33accc>e</font><font color=#196ce5>?</font></a></b></p>
+          <a href="/codedex-90s/club" style="text-decoration: none;">
+            <button class="hacker-button" style="margin-top: 10px;">
+              <p><b style="font-size: 22px;">Subscribe to</b> <ClubImage width="101" height="20"/>.</p>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div style="flex: 1;">
+    </div>
+  </div>
+
+  <script>
+    document.querySelectorAll('a[data-category]').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const category = (e.target as HTMLElement).getAttribute('data-category');
+        document.querySelectorAll('.course').forEach(course => {
+          course.style.display = 'none';
+        });
+        document.querySelector(`.course[data-category="${category}"]`).style.display = 'block';
+      });
+    });
+
+    document.querySelector('.course[data-category="html"]').style.display = 'block';
+  </script>
+</Layout>
