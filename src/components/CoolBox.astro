@@ -1,5 +1,5 @@
 ---
-const { title, image, text, stars, borderColor } = Astro.props;
+const { title, image, text, stars, borderColor, titleImage, afterTextImage, afterTextImageWidth, afterTextImageHeight } = Astro.props;
 ---
 
 <div style={`background: #222; padding: 20px; border: 2px solid ${borderColor}; border-radius: 5px; width: 300px;`}>
@@ -10,10 +10,21 @@ const { title, image, text, stars, borderColor } = Astro.props;
                 <span style={`margin-left: 10px; font-size: 1.2rem; color: ${borderColor}; font-weight: bold;`}>{title}</span>
             </div>
         )}
-        {!image && (
+        {!image && titleImage && (
+            <div style="margin-bottom: 10px;">
+                <img src={titleImage} alt={title} style="display: inline-block; vertical-align: middle;"/>
+                <span style={`margin-left: 10px; font-size: 1.2rem; color: ${borderColor}; font-weight: bold;`}>{title}</span>
+            </div>
+        )}
+        {!image && !titleImage && (
             <h2 style={`font-size: 1.5rem; color: ${borderColor};`}>{title}</h2>
         )}
         <p>{text}</p>
+        {afterTextImage && (
+            <div style="margin-top: 10px;">
+                <img src={afterTextImage} alt="After Text Image" style={`width: ${afterTextImageWidth}; height: ${afterTextImageHeight};`} />
+            </div>
+        )}
         {stars && (
             <div style="display: flex; justify-content: center; margin-top: 15px;">
                 {Array.from({ length: stars }).map((_, index) => (

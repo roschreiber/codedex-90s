@@ -9,7 +9,11 @@ import money from '/public/img/animated/money07.gif';
 <meta charset="UTF-8">
 <body>
     <center>
-        <marquee direction="left"><img alt="Kirby flying right" src="/codedex-90s/img/animated/kirbster.gif" style="margin-right: 5px; margin-bottom: -5px;"> <span>Codédex Winter Hackathon live NOW!</span> <img src="/codedex-90s/img/animated/kirbster-enemy.gif" alt="Waddledoo chasing Kirby" style="margin-left: 6px; margin-bottom: -5px;"></marquee>
+        <marquee direction="left">
+           <a href="https://www.youtube.com/watch?v=0Dpw0VvH4m0"><img alt="Kirby flying right" src="/codedex-90s/img/animated/kirbster.gif" style="cursor: pointer; margin-right: 5px; margin-bottom: -5px;"></a>
+            <span>Codédex Winter Hackathon live NOW!</span> 
+            <img src="/codedex-90s/img/animated/kirbster-enemy.gif" alt="Waddledoo chasing Kirby" style="margin-left: 5px; margin-bottom: -5px;">
+        </marquee>
         <br>
         <Image src={hacker} alt="Person Hacking on a Computer" />
         <CodedexImage width="384" height="51" />
@@ -29,4 +33,5 @@ import money from '/public/img/animated/money07.gif';
             </tbody>
         </table>
     </center>
+    <audio id="poyoSound" src="/codedex-90s/sfx/poyo.mp3"></audio>
 </body>
