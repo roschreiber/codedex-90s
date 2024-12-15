@@ -24,7 +24,9 @@ import CommunitySidebar from '../components/CommunitySidebar.astro';
     </div>
 
     <div style="text-align: center; margin-top: 20px;">
-        <a href="/codedex-90s/community/"><button class="hacker-button">Get Started</button></a>
+        <a href="javascript:void(0);" onclick="handleGetStartedClick()">
+            <button class="hacker-button">Get Started</button>
+        </a>
         <div style="display: flex; justify-content: center; align-items: center;">
             <p style="margin: 0;">Supported by:</p>
             <Image src={githubOld} width={70} height={70} alt="Github - Social Coding" style="margin-left: -5px;" />
@@ -49,11 +51,17 @@ import CommunitySidebar from '../components/CommunitySidebar.astro';
     <img class="baloon-cat" src="/codedex-90s/img/animated/hot-air-baloon.gif" alt="">
     <script>window.NekoType = "silver";</script>
     <script src="https://webneko.net/n20171213.js" defer></script>
-    <script src="text/javascript" src="https://www.wikplayer.com/code.js" 
-data-config="{'skin':'skins/wikfull/plainBlack/skin.css','volume':50,'autoplay':true,'shuffle':false,'repeat':1,'showcomment':false,'marqueetexton':true,'placement':'bottom','showplaylist':false,'playlist':[{'title':'Jamiroquai%20-%20VIrtual%20Insanity','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLm6DS3BeTdM'},{'title':'PROUX%20-%20Funk%20Express','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEshAHgKLY1o'},{'title':'Rakuten%20Point','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAc4dmdBT7Us'},{'title':'Basshunter%20-%20DotA','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DqTsaS1Tm-Ic'},{'title':'Deathro%20-%20E.S.S.O','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxGYUtqyhgTM'}]}" ></script>
     <script>
     window.onload = function() {
         alert('Click to enter Codédex!');
+        document.addEventListener('click', function loadPlayer() {
+            var script = document.createElement('script');
+            script.src = "https://www.wikplayer.com/code.js";
+            script.type = "text/javascript";
+            script.setAttribute('data-config', "{'skin':'skins/wikfull/plainBlack/skin.css','volume':50,'autoplay':true,'shuffle':false,'repeat':1,'showcomment':false,'marqueetexton':true,'placement':'bottom','showplaylist':false,'playlist':[{'title':'Jamiroquai%20-%20VIrtual%20Insanity','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLm6DS3BeTdM'},{'title':'PROUX%20-%20Funk%20Express','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEshAHgKLY1o'},{'title':'Rakuten%20Point','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAc4dmdBT7Us'},{'title':'Basshunter%20-%20DotA','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DqTsaS1Tm-Ic'},{'title':'Deathro%20-%20E.S.S.O','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxGYUtqyhgTM'}]}");
+            document.body.appendChild(script);
+            document.removeEventListener('click', loadPlayer);
+        });
     };
     </script>
     </body>
